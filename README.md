@@ -1,1 +1,1 @@
-# VMU-HW
+# Vehicle Measurement Unit - Hardware
