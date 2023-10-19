@@ -2460,6 +2460,11 @@
           (reference "U7") (unit 1)
         )
       )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
+          (reference "U7") (unit 1)
+        )
+      )
     )
   )
 
@@ -2488,6 +2493,11 @@
       )
       (project "MCU copy"
         (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "C23") (unit 1)
+        )
+      )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
           (reference "C23") (unit 1)
         )
       )
@@ -2522,6 +2532,11 @@
           (reference "C18") (unit 1)
         )
       )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
+          (reference "C18") (unit 1)
+        )
+      )
     )
   )
 
@@ -2550,6 +2565,11 @@
       )
       (project "MCU copy"
         (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "C22") (unit 1)
+        )
+      )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
           (reference "C22") (unit 1)
         )
       )
@@ -2584,6 +2604,11 @@
           (reference "C17") (unit 1)
         )
       )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
+          (reference "C17") (unit 1)
+        )
+      )
     )
   )
 
@@ -2612,6 +2637,11 @@
       )
       (project "MCU copy"
         (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "C16") (unit 1)
+        )
+      )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
           (reference "C16") (unit 1)
         )
       )
@@ -2646,6 +2676,11 @@
           (reference "C19") (unit 1)
         )
       )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
+          (reference "C19") (unit 1)
+        )
+      )
     )
   )
 
@@ -2677,6 +2712,11 @@
           (reference "C21") (unit 1)
         )
       )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
+          (reference "C21") (unit 1)
+        )
+      )
     )
   )
 
@@ -2705,6 +2745,11 @@
       )
       (project "MCU copy"
         (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "C20") (unit 1)
+        )
+      )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
           (reference "C20") (unit 1)
         )
       )
@@ -2797,6 +2842,11 @@
           (reference "J6") (unit 1)
         )
       )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
+          (reference "J6") (unit 1)
+        )
+      )
     )
   )
 
@@ -2878,6 +2928,11 @@
           (reference "R39") (unit 1)
         )
       )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
+          (reference "R39") (unit 1)
+        )
+      )
     )
   )
 
@@ -2906,6 +2961,11 @@
       )
       (project "MCU copy"
         (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "D31") (unit 1)
+        )
+      )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
           (reference "D31") (unit 1)
         )
       )
@@ -2965,6 +3025,11 @@
           (reference "R40") (unit 1)
         )
       )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
+          (reference "R40") (unit 1)
+        )
+      )
     )
   )
 
@@ -2993,6 +3058,11 @@
       )
       (project "MCU copy"
         (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "C15") (unit 1)
+        )
+      )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
           (reference "C15") (unit 1)
         )
       )
@@ -3049,6 +3119,11 @@
       )
       (project "MCU copy"
         (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "R38") (unit 1)
+        )
+      )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
           (reference "R38") (unit 1)
         )
       )
@@ -3177,6 +3252,11 @@
           (reference "R?") (unit 1)
         )
       )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
+          (reference "R?") (unit 1)
+        )
+      )
     )
   )
 
@@ -3197,8 +3277,8 @@
     )
     (pin "1" (uuid f1261f72-5c02-4890-a41e-865cffd0b131))
     (pin "2" (uuid d919c3bf-a83e-455c-9760-403a9ebb70dd))
-    (pin "3" (uuid aa2aecb6-5148-41ca-8b9d-96f6310e19d0))
-    (pin "3" (uuid aa2aecb6-5148-41ca-8b9d-96f6310e19d0))
+    (pin "3" (uuid aa2aecb6-5148-41ca-8b9d-96f6310e19d1))
+    (pin "3" (uuid aa2aecb6-5148-41ca-8b9d-96f6310e19d1))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d0bc"
@@ -3207,6 +3287,11 @@
       )
       (project "MCU copy"
         (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "D29") (unit 1)
+        )
+      )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
           (reference "D29") (unit 1)
         )
       )
@@ -3244,6 +3329,11 @@
           (reference "R?") (unit 1)
         )
       )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
+          (reference "R?") (unit 1)
+        )
+      )
     )
   )
 
@@ -3275,6 +3365,11 @@
       )
       (project "MCU copy"
         (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
           (reference "R?") (unit 1)
         )
       )
@@ -3334,6 +3429,11 @@
           (reference "D32") (unit 1)
         )
       )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
+          (reference "D32") (unit 1)
+        )
+      )
     )
   )
 
@@ -3362,6 +3462,11 @@
       )
       (project "MCU copy"
         (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "D30") (unit 1)
+        )
+      )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
           (reference "D30") (unit 1)
         )
       )
@@ -3531,6 +3636,11 @@
           (reference "C3") (unit 1)
         )
       )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
+          (reference "C3") (unit 1)
+        )
+      )
     )
   )
 
@@ -3598,6 +3708,11 @@
           (reference "U2") (unit 1)
         )
       )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
+          (reference "U2") (unit 1)
+        )
+      )
     )
   )
 
@@ -3626,6 +3741,11 @@
       )
       (project "MCU copy"
         (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "R9") (unit 1)
+        )
+      )
+      (project "VMU (kopia)"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d0bc"
           (reference "R9") (unit 1)
         )
       )
