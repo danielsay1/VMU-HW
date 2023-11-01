@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "blocks-rescue")(type "KiCad")(uri "/Users/philiplind/Documents/GitHub/KICAD_infrastructure/blocks_KiCad7/blocks-rescue.kicad_sym")(options "")(descr ""))
+)
