@@ -1740,6 +1740,11 @@
           (reference "R19") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R19") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R19") (unit 1)
@@ -1765,6 +1770,11 @@
     )
     (pin "1" (uuid 506ba38e-e50a-48cf-b36e-aa6a3fe25a20))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR060") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR060") (unit 1)
@@ -1790,6 +1800,11 @@
     )
     (pin "1" (uuid 3d6ff3cf-8c54-417d-9dd3-946a3c5c6141))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR059") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR059") (unit 1)
@@ -1818,6 +1833,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R23") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R23") (unit 1)
         )
       )
@@ -1852,6 +1872,11 @@
           (reference "C11") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C11") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C11") (unit 1)
@@ -1880,6 +1905,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R27") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R27") (unit 1)
         )
       )
@@ -1914,6 +1944,11 @@
           (reference "R20") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R20") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R20") (unit 1)
@@ -1939,6 +1974,11 @@
     )
     (pin "1" (uuid 5339142f-8a90-41a2-ab97-12748644edb1))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR062") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR062") (unit 1)
@@ -1964,6 +2004,11 @@
     )
     (pin "1" (uuid e4b0e12e-464e-4163-906b-cf1353402f83))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR061") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR061") (unit 1)
@@ -1992,6 +2037,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R24") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R24") (unit 1)
         )
       )
@@ -2026,6 +2076,11 @@
           (reference "C12") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C12") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C12") (unit 1)
@@ -2054,6 +2109,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R28") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R28") (unit 1)
         )
       )
@@ -2088,6 +2148,11 @@
           (reference "R31") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R31") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R31") (unit 1)
@@ -2116,6 +2181,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R32") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R32") (unit 1)
         )
       )
@@ -2150,6 +2220,11 @@
           (reference "R21") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R21") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R21") (unit 1)
@@ -2175,6 +2250,11 @@
     )
     (pin "1" (uuid ec91d114-d160-4e15-8a8f-6e19716f8559))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR064") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR064") (unit 1)
@@ -2200,6 +2280,11 @@
     )
     (pin "1" (uuid fee4ce20-8d69-4f25-8689-c8be360d9aa7))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR063") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR063") (unit 1)
@@ -2228,6 +2313,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R25") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R25") (unit 1)
         )
       )
@@ -2262,6 +2352,11 @@
           (reference "C13") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C13") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C13") (unit 1)
@@ -2290,6 +2385,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R29") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R29") (unit 1)
         )
       )
@@ -2324,6 +2424,11 @@
           (reference "R22") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R22") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R22") (unit 1)
@@ -2349,6 +2454,11 @@
     )
     (pin "1" (uuid 95dad494-ee9d-4960-982b-2db1939591af))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR066") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR066") (unit 1)
@@ -2374,6 +2484,11 @@
     )
     (pin "1" (uuid 2a9873fa-1a1f-45f9-92ae-adecac47c2b8))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR065") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR065") (unit 1)
@@ -2402,6 +2517,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R26") (unit 1)
         )
       )
@@ -2436,6 +2556,11 @@
           (reference "C14") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C14") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C14") (unit 1)
@@ -2464,6 +2589,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R30") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R30") (unit 1)
         )
       )
@@ -2498,6 +2628,11 @@
           (reference "R33") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R33") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R33") (unit 1)
@@ -2529,6 +2664,11 @@
           (reference "R34") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R34") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R34") (unit 1)
@@ -2554,11 +2694,16 @@
     )
     (pin "1" (uuid fab7cb59-8f96-4b31-9871-456be4eb64fb))
     (pin "2" (uuid 5ad1c751-143b-42cc-9b09-63b6221bddf9))
-    (pin "3" (uuid a94d14f3-da50-4671-a80b-317dcca528fe))
-    (pin "3" (uuid a94d14f3-da50-4671-a80b-317dcca528fe))
+    (pin "3" (uuid a94d14f3-da50-4671-a80b-317dcca528ff))
+    (pin "3" (uuid a94d14f3-da50-4671-a80b-317dcca528ff))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D25") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D25") (unit 1)
         )
       )
@@ -2587,11 +2732,16 @@
     )
     (pin "1" (uuid 4faf8a4b-0e96-4a24-8e4c-2237d050db9a))
     (pin "2" (uuid 8cec1cb9-1a56-4507-9d8c-e7e9a10e590e))
-    (pin "3" (uuid 44822555-709d-44d0-a308-723fdacc4ab1))
-    (pin "3" (uuid 44822555-709d-44d0-a308-723fdacc4ab1))
+    (pin "3" (uuid 44822555-709d-44d0-a308-723fdacc4ab2))
+    (pin "3" (uuid 44822555-709d-44d0-a308-723fdacc4ab2))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D26") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D26") (unit 1)
         )
       )
@@ -2620,11 +2770,16 @@
     )
     (pin "1" (uuid e7d6c994-be09-4b3e-b909-e1d066736436))
     (pin "2" (uuid 015e1dcd-fcf9-4cf6-8957-17928309ab1c))
-    (pin "3" (uuid 5fd53e97-8367-4fdd-a778-2b7a19fe23da))
-    (pin "3" (uuid 5fd53e97-8367-4fdd-a778-2b7a19fe23da))
+    (pin "3" (uuid 5fd53e97-8367-4fdd-a778-2b7a19fe23db))
+    (pin "3" (uuid 5fd53e97-8367-4fdd-a778-2b7a19fe23db))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D27") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D27") (unit 1)
         )
       )
@@ -2653,11 +2808,16 @@
     )
     (pin "1" (uuid 785c1e76-3957-4889-8bd4-ce34b8bc2454))
     (pin "2" (uuid 98ad4bae-bcf3-415f-8434-cfd8f9522ab1))
-    (pin "3" (uuid 1bb1fd7b-f515-4a58-8b44-d6f86599c52f))
-    (pin "3" (uuid 1bb1fd7b-f515-4a58-8b44-d6f86599c52f))
+    (pin "3" (uuid 1bb1fd7b-f515-4a58-8b44-d6f86599c530))
+    (pin "3" (uuid 1bb1fd7b-f515-4a58-8b44-d6f86599c530))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D28") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D28") (unit 1)
         )
       )
@@ -2686,6 +2846,11 @@
     )
     (pin "1" (uuid 7dd66a50-7d55-4b78-a374-6bbe2d420ccf))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0141") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0141") (unit 1)
@@ -2711,6 +2876,11 @@
     )
     (pin "1" (uuid 1a5327c9-090f-43e7-bcd8-b33fc931ee2f))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0140") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0140") (unit 1)
@@ -2736,6 +2906,11 @@
     )
     (pin "1" (uuid d5fc73ac-da19-4728-b6a3-38b34645c242))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0109") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0109") (unit 1)
@@ -2761,6 +2936,11 @@
     )
     (pin "1" (uuid ce5af0a1-b78f-4392-a797-817ac2795dbf))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0110") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0110") (unit 1)
@@ -2786,6 +2966,11 @@
     )
     (pin "1" (uuid 28f95df3-93d0-44d3-bab3-d02484f35e7d))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0138") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0138") (unit 1)
@@ -2811,6 +2996,11 @@
     )
     (pin "1" (uuid c0ab75e8-87eb-4884-9af3-715ac6d3050f))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0137") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0137") (unit 1)
@@ -2836,6 +3026,11 @@
     )
     (pin "1" (uuid 4ae3f0cb-5e62-42f9-807e-755ed742d300))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0111") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0111") (unit 1)
@@ -2861,6 +3056,11 @@
     )
     (pin "1" (uuid 2dc16150-ca57-4975-86d1-edc66db99d94))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0112") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0112") (unit 1)
@@ -2886,11 +3086,16 @@
     )
     (pin "1" (uuid d28f561f-de66-4d04-b12b-6c7c4ce6a4dd))
     (pin "2" (uuid 9c005535-c35b-44a6-a8f8-a049b160067e))
-    (pin "3" (uuid 4b1dcab5-08bf-4a3f-b615-e9742f543999))
-    (pin "3" (uuid 4b1dcab5-08bf-4a3f-b615-e9742f543999))
+    (pin "3" (uuid 4b1dcab5-08bf-4a3f-b615-e9742f54399a))
+    (pin "3" (uuid 4b1dcab5-08bf-4a3f-b615-e9742f54399a))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D17") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D17") (unit 1)
         )
       )
@@ -2919,11 +3124,16 @@
     )
     (pin "1" (uuid 2588647f-b901-43fe-a60e-a7a70ef0bc37))
     (pin "2" (uuid 25f089b3-27f7-4734-9916-a4a44028642d))
-    (pin "3" (uuid c35de8e6-7cb1-4994-88b8-9f6a806a3468))
-    (pin "3" (uuid c35de8e6-7cb1-4994-88b8-9f6a806a3468))
+    (pin "3" (uuid c35de8e6-7cb1-4994-88b8-9f6a806a3469))
+    (pin "3" (uuid c35de8e6-7cb1-4994-88b8-9f6a806a3469))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D18") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D18") (unit 1)
         )
       )
@@ -2958,6 +3168,11 @@
           (reference "C1") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C1") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C1") (unit 1)
@@ -2986,6 +3201,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R7") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R7") (unit 1)
         )
       )
@@ -3020,6 +3240,11 @@
           (reference "R5") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R5") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R5") (unit 1)
@@ -3048,6 +3273,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R3") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R3") (unit 1)
         )
       )
@@ -3082,6 +3312,11 @@
           (reference "R1") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R1") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R1") (unit 1)
@@ -3110,6 +3345,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "C2") (unit 1)
         )
       )
@@ -3144,6 +3384,11 @@
           (reference "R8") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R8") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R8") (unit 1)
@@ -3172,6 +3417,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R6") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R6") (unit 1)
         )
       )
@@ -3206,6 +3456,11 @@
           (reference "R4") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R4") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R4") (unit 1)
@@ -3237,6 +3492,11 @@
           (reference "R2") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R2") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R2") (unit 1)
@@ -3262,6 +3522,11 @@
     )
     (pin "1" (uuid 004db2fe-1acc-437b-bf60-692498ebb046))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0113") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0113") (unit 1)
@@ -3287,6 +3552,11 @@
     )
     (pin "1" (uuid 927045f0-e176-4ad6-94f0-4eaef4fc3511))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0114") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0114") (unit 1)
@@ -3312,6 +3582,11 @@
     )
     (pin "1" (uuid 32e33a97-5914-4b46-96a6-7839086b50e4))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0115") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0115") (unit 1)
@@ -3337,6 +3612,11 @@
     )
     (pin "1" (uuid c77a243d-2e26-48b1-aa65-0f0775e8810d))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0142") (unit 1)
@@ -3362,6 +3642,11 @@
     )
     (pin "1" (uuid b320b16e-47ac-437c-84ca-ece617be1f53))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0118") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0118") (unit 1)
@@ -3387,6 +3672,11 @@
     )
     (pin "1" (uuid f413d91b-2e6a-448f-8ba2-9da7021cf376))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0119") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0119") (unit 1)
@@ -3412,6 +3702,11 @@
     )
     (pin "1" (uuid e6249b3e-e9df-4d88-b522-4b4ae651513d))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0120") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0120") (unit 1)
@@ -3437,6 +3732,11 @@
     )
     (pin "1" (uuid 6494b2cb-b6a5-4726-b341-af81dcfff8c1))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0121") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0121") (unit 1)
@@ -3465,6 +3765,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R14") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R14") (unit 1)
         )
       )
@@ -3499,6 +3804,11 @@
           (reference "R16") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R16") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R16") (unit 1)
@@ -3527,6 +3837,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R18") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R18") (unit 1)
         )
       )
@@ -3561,6 +3876,11 @@
           (reference "C10") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C10") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C10") (unit 1)
@@ -3592,6 +3912,11 @@
           (reference "R12") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R12") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R12") (unit 1)
@@ -3617,11 +3942,16 @@
     )
     (pin "1" (uuid 19c7058c-d249-425c-b3f2-44fb0e581859))
     (pin "2" (uuid efd05df2-7fc3-4b10-ab21-74f87ee81bd4))
-    (pin "3" (uuid 643c76b5-f764-447f-ad1b-730d113b1798))
-    (pin "3" (uuid 643c76b5-f764-447f-ad1b-730d113b1798))
+    (pin "3" (uuid 643c76b5-f764-447f-ad1b-730d113b1799))
+    (pin "3" (uuid 643c76b5-f764-447f-ad1b-730d113b1799))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D24") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D24") (unit 1)
         )
       )
@@ -3650,11 +3980,16 @@
     )
     (pin "1" (uuid 35a4e8c1-729d-4879-8d32-9ef43e0be744))
     (pin "2" (uuid 3d27b4da-5b51-4079-9e2d-b925630e6ce3))
-    (pin "3" (uuid 3f340f80-fb61-423d-8ace-950a53d6d850))
-    (pin "3" (uuid 3f340f80-fb61-423d-8ace-950a53d6d850))
+    (pin "3" (uuid 3f340f80-fb61-423d-8ace-950a53d6d851))
+    (pin "3" (uuid 3f340f80-fb61-423d-8ace-950a53d6d851))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D23") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D23") (unit 1)
         )
       )
@@ -3689,6 +4024,11 @@
           (reference "C9") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C9") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C9") (unit 1)
@@ -3717,6 +4057,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R17") (unit 1)
         )
       )
@@ -3751,6 +4096,11 @@
           (reference "R15") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R15") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R15") (unit 1)
@@ -3782,6 +4132,11 @@
           (reference "R13") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R13") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R13") (unit 1)
@@ -3809,6 +4164,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0143") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "#PWR0143") (unit 1)
         )
       )
@@ -3843,6 +4203,11 @@
           (reference "R11") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R11") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R11") (unit 1)
@@ -3868,6 +4233,11 @@
     )
     (pin "1" (uuid 182da386-1325-4ce2-a944-260fb81c2f49))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0130") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0130") (unit 1)
@@ -3893,6 +4263,11 @@
     )
     (pin "1" (uuid 1689fadc-6f10-4d71-ab45-2ea291f0b9b2))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0131") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0131") (unit 1)
@@ -3918,6 +4293,11 @@
     )
     (pin "1" (uuid d6a20b91-34c6-4502-b2d5-ccb0f2398d68))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0132") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0132") (unit 1)
@@ -3943,6 +4323,11 @@
     )
     (pin "1" (uuid 113ee388-f2e0-47d8-9a26-52394cbcdb6d))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0133") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0133") (unit 1)
@@ -3968,6 +4353,11 @@
     )
     (pin "1" (uuid dd2e2e4a-387f-4dee-ba99-821d44819f42))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0134") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0134") (unit 1)
@@ -3993,6 +4383,11 @@
     )
     (pin "1" (uuid 7c3ce02a-2b96-4485-a67c-5f23ac5e2edf))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0135") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0135") (unit 1)
@@ -4018,6 +4413,11 @@
     )
     (pin "1" (uuid e95d4fd3-52f9-44ac-9700-22b9913c96ec))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0136") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0136") (unit 1)
@@ -4046,6 +4446,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R3") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R3") (unit 1)
         )
       )
@@ -4087,6 +4492,11 @@
     (pin "11" (uuid 4174f2d7-aec2-4b91-a6af-665249f8c3b5))
     (pin "4" (uuid 531cdefc-0639-45bc-9795-703859ca62e5))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U2") (unit 2)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U2") (unit 2)
@@ -4125,6 +4535,11 @@
     (pin "11" (uuid 5b4536b4-e9b7-4e5e-8c76-9e999e2d9061))
     (pin "4" (uuid 5d5f47a1-ec48-4379-b0a3-9d8916679738))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U6") (unit 4)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U6") (unit 4)
@@ -4158,6 +4573,11 @@
       )
       (project "blocks"
         (path "/9805bc69-1175-4e73-a53f-b71c343de45b/00000000-0000-0000-0000-00005fa7effd"
+          (reference "C?") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "C?") (unit 1)
         )
       )
@@ -4199,6 +4619,11 @@
     (pin "11" (uuid bba08ed4-ec69-4508-8075-8dc228cd320c))
     (pin "4" (uuid 218fb147-7317-4aad-af0f-b93aa4fc5a6b))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U4") (unit 4)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U4") (unit 4)
@@ -4224,6 +4649,11 @@
     )
     (pin "1" (uuid 78386472-1599-46ce-b49b-718505a5b091))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR016") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR016") (unit 1)
@@ -4249,6 +4679,11 @@
     )
     (pin "1" (uuid 99aba70a-fe71-4437-b9f7-141f52f3b8c2))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR04") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR04") (unit 1)
@@ -4280,6 +4715,11 @@
           (reference "R4") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R4") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R44") (unit 1)
@@ -4308,6 +4748,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R5") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R5") (unit 1)
         )
       )
@@ -4349,6 +4794,11 @@
     (pin "11" (uuid 15d60c82-7632-4f86-8ccd-cf7ace816f3e))
     (pin "4" (uuid 8dcf65ed-8ec9-40a5-99f9-05c70f2fd390))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U2") (unit 4)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U2") (unit 4)
@@ -4374,11 +4824,16 @@
     )
     (pin "1" (uuid f3fd57d6-5d9e-4698-af42-738494017ae3))
     (pin "2" (uuid c8ac68cd-495c-4220-812c-1cc950daf8e4))
-    (pin "3" (uuid 013f4385-b71a-4847-9091-3672abd50aff))
-    (pin "3" (uuid 013f4385-b71a-4847-9091-3672abd50aff))
+    (pin "3" (uuid 013f4385-b71a-4847-9091-3672abd50b00))
+    (pin "3" (uuid 013f4385-b71a-4847-9091-3672abd50b00))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D24") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D24") (unit 1)
         )
       )
@@ -4413,6 +4868,11 @@
           (reference "R17") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R17") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R55") (unit 1)
@@ -4440,6 +4900,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR0143") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "#PWR0143") (unit 1)
         )
       )
@@ -4481,6 +4946,11 @@
     (pin "11" (uuid cce59dd5-6486-48e9-a31a-238df6ef74ed))
     (pin "4" (uuid bd87e8fb-39c9-4d4d-9b76-c5a3ec70edf5))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U6") (unit 2)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U6") (unit 2)
@@ -4509,6 +4979,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R12") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R12") (unit 1)
         )
       )
@@ -4542,6 +5017,11 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR?") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR018") (unit 1)
@@ -4570,6 +5050,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R16") (unit 1)
         )
       )
@@ -4611,6 +5096,11 @@
     (pin "11" (uuid e44734d8-a812-4ae1-a235-af45ab64ae46))
     (pin "4" (uuid 88762f35-71ca-462a-9427-b68a0b38593f))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U4") (unit 5)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U4") (unit 5)
@@ -4636,6 +5126,11 @@
     )
     (pin "1" (uuid 26b30e72-d07c-4b0b-8c78-b213ab2613f3))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR06") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR06") (unit 1)
@@ -4661,6 +5156,11 @@
     )
     (pin "1" (uuid ba20a0c2-a72f-48d1-a671-a284058768f8))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR013") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR013") (unit 1)
@@ -4699,6 +5199,11 @@
     (pin "11" (uuid d8f45eed-a319-4442-a61a-b746b283ac04))
     (pin "4" (uuid 9854869d-23d3-4673-a56e-c28fd97fe288))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U2") (unit 3)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U2") (unit 3)
@@ -4727,6 +5232,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R18") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R18") (unit 1)
         )
       )
@@ -4768,6 +5278,11 @@
     (pin "11" (uuid ac8f4d00-d1dc-4a34-910e-a360a1cf4aa2))
     (pin "4" (uuid c8f809d2-d807-476f-a6a9-2772df8a24a6))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U6") (unit 3)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U6") (unit 3)
@@ -4795,6 +5310,11 @@
     (instances
       (project "MCU"
         (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -4829,6 +5349,11 @@
           (reference "R7") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R7") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R53") (unit 1)
@@ -4854,11 +5379,16 @@
     )
     (pin "1" (uuid 8d8cc08e-f079-420c-ad08-d8d6d275f204))
     (pin "2" (uuid cd1e56da-aef0-4c76-bade-4ddbb4896116))
-    (pin "3" (uuid 2b6d5d1f-af2f-42bd-a2ae-83b28ec1f6e9))
-    (pin "3" (uuid 2b6d5d1f-af2f-42bd-a2ae-83b28ec1f6e9))
+    (pin "3" (uuid 2b6d5d1f-af2f-42bd-a2ae-83b28ec1f6ea))
+    (pin "3" (uuid 2b6d5d1f-af2f-42bd-a2ae-83b28ec1f6ea))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D18") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D18") (unit 1)
         )
       )
@@ -4900,6 +5430,11 @@
     (pin "11" (uuid 962653f9-987f-42c3-b624-4d606652260e))
     (pin "4" (uuid 11ea5fb1-2483-432a-9f74-19b1bf5845ad))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U4") (unit 3)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U4") (unit 3)
@@ -4931,6 +5466,11 @@
           (reference "C2") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C2") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C3") (unit 1)
@@ -4956,6 +5496,11 @@
     )
     (pin "1" (uuid 40c50e2a-03f0-4fd8-a3b3-f613a8c29454))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR011") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR011") (unit 1)
@@ -4987,6 +5532,11 @@
           (reference "C1") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C1") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C4") (unit 1)
@@ -5012,6 +5562,11 @@
     )
     (pin "1" (uuid f385a686-bcd6-4dd4-bec7-37db59bd4df7))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR010") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR010") (unit 1)
@@ -5037,11 +5592,16 @@
     )
     (pin "1" (uuid c401d002-4499-48ff-8c1c-f900db39291f))
     (pin "2" (uuid a25d9dd7-5598-46e1-9e21-eaf8a20d1081))
-    (pin "3" (uuid 3b05e270-b5ce-444b-be75-c3517736b887))
-    (pin "3" (uuid 3b05e270-b5ce-444b-be75-c3517736b887))
+    (pin "3" (uuid 3b05e270-b5ce-444b-be75-c3517736b888))
+    (pin "3" (uuid 3b05e270-b5ce-444b-be75-c3517736b888))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D23") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D23") (unit 1)
         )
       )
@@ -5083,6 +5643,11 @@
     (pin "11" (uuid eb0f585c-7aad-482a-b47e-424a4fa82c10))
     (pin "4" (uuid c12e5aa6-b252-409b-9d22-2cb6874892fe))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U6") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U6") (unit 1)
@@ -5111,6 +5676,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R8") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R8") (unit 1)
         )
       )
@@ -5145,6 +5715,11 @@
           (reference "R2") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R2") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R37") (unit 1)
@@ -5173,6 +5748,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R6") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R6") (unit 1)
         )
       )
@@ -5207,6 +5787,11 @@
           (reference "R15") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R15") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R51") (unit 1)
@@ -5232,6 +5817,11 @@
     )
     (pin "1" (uuid 9ce92a03-9907-49c2-83ea-e2838380a1f7))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR01") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR01") (unit 1)
@@ -5257,6 +5847,11 @@
     )
     (pin "1" (uuid 8e94353b-05f9-4ae5-af33-2b7b6055d5d3))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR012") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR012") (unit 1)
@@ -5287,6 +5882,11 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR?") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR021") (unit 1)
@@ -5312,6 +5912,11 @@
     )
     (pin "1" (uuid 33999b93-03b8-4c4b-9108-ef95d7f565f0))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR014") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR014") (unit 1)
@@ -5337,6 +5942,11 @@
     )
     (pin "1" (uuid 905d01bd-31ed-4020-835a-ee6dd291a1a9))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR015") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR015") (unit 1)
@@ -5362,6 +5972,11 @@
     )
     (pin "1" (uuid b69b9023-73a9-414b-9c37-e657af0c8df2))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR03") (unit 1)
@@ -5400,6 +6015,11 @@
     (pin "11" (uuid 35c29dad-eb8b-407b-9d99-02a2d0d179a9))
     (pin "4" (uuid 516804cb-3405-4ecf-a731-dbe8ffc1b5b2))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U4") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U4") (unit 1)
@@ -5430,6 +6050,11 @@
           (reference "#PWR?") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR?") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR019") (unit 1)
@@ -5457,6 +6082,11 @@
     (instances
       (project "MCU"
         (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -5498,6 +6128,11 @@
     (pin "11" (uuid 8b3591d9-4995-429c-86b2-96c7d14687b0))
     (pin "4" (uuid 3b3b7437-3c3d-41e1-aef2-398f12eac793))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U2") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U2") (unit 1)
@@ -5526,6 +6161,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R13") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R13") (unit 1)
         )
       )
@@ -5567,6 +6207,11 @@
     (pin "11" (uuid e126519e-14d4-4123-89cf-968480e769b6))
     (pin "4" (uuid d18d1c54-332c-4546-9b62-9dc192d49c44))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U2") (unit 5)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U2") (unit 5)
@@ -5594,6 +6239,11 @@
     (instances
       (project "MCU"
         (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "#PWR?") (unit 1)
         )
       )
@@ -5633,6 +6283,11 @@
           (reference "C?") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C?") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C1") (unit 1)
@@ -5664,6 +6319,11 @@
           (reference "C9") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C9") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C6") (unit 1)
@@ -5692,6 +6352,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R14") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R14") (unit 1)
         )
       )
@@ -5733,6 +6398,11 @@
     (pin "11" (uuid a0247a8a-6aea-4bc1-ab97-bb1f3368bc32))
     (pin "4" (uuid 180633fa-2df2-4c2b-8532-a120fde634d7))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U4") (unit 2)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U4") (unit 2)
@@ -5771,6 +6441,11 @@
     (pin "11" (uuid b8f4fbb3-ec1e-48fd-9aa6-f6752cc9b6fa))
     (pin "4" (uuid f798f5f2-0112-4b0b-a90a-4df1492fece3))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "U6") (unit 5)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "U6") (unit 5)
@@ -5802,6 +6477,11 @@
           (reference "C10") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C10") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C5") (unit 1)
@@ -5827,6 +6507,11 @@
     )
     (pin "1" (uuid 25945d7a-baa3-4cc4-adb9-df6a90e434c9))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR09") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR09") (unit 1)
@@ -5863,6 +6548,11 @@
           (reference "C?") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "C?") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C2") (unit 1)
@@ -5894,6 +6584,11 @@
           (reference "R11") (unit 1)
         )
       )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R11") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R40") (unit 1)
@@ -5919,6 +6614,11 @@
     )
     (pin "1" (uuid d8c4cdb1-cc7b-4d5c-b0c3-7a67f05e233a))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR08") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR08") (unit 1)
@@ -5944,11 +6644,16 @@
     )
     (pin "1" (uuid 4c2a846b-c8c5-4fd5-8566-6c391b8322f2))
     (pin "2" (uuid 6eb5ba3b-ac1e-46ed-86e1-6e44de64301b))
-    (pin "3" (uuid 2fd8cdf3-fb47-494e-b58b-bd61df2f4786))
-    (pin "3" (uuid 2fd8cdf3-fb47-494e-b58b-bd61df2f4786))
+    (pin "3" (uuid 2fd8cdf3-fb47-494e-b58b-bd61df2f4787))
+    (pin "3" (uuid 2fd8cdf3-fb47-494e-b58b-bd61df2f4787))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "D17") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D17") (unit 1)
         )
       )
@@ -5977,6 +6682,11 @@
     )
     (pin "1" (uuid 55a7357d-6ccb-496a-9ae1-0f7fa0f33315))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR05") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR05") (unit 1)
@@ -6002,6 +6712,11 @@
     )
     (pin "1" (uuid ded5515f-15ef-44b6-8d18-4898c1b9e8ff))
     (instances
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "#PWR02") (unit 1)
+        )
+      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR02") (unit 1)
@@ -6030,6 +6745,11 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "VMU"
+        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R1") (unit 1)
         )
       )
