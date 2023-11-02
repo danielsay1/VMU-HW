@@ -14,90 +14,6 @@
   )
 
   (lib_symbols
-    (symbol "Amplifier_Operational:LM358" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "LM358" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "dual opamp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LM358_1_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "LM358_2_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "LM358_3_1"
-        (pin power_in line (at -2.54 -7.62 90) (length 3.81)
-          (name "V-" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 7.62 270) (length 3.81)
-          (name "V+" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -344,6 +260,178 @@
         (pin passive line (at -5.08 0 0) (length 2.54)
           (name "common" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "KTHFS:TLV9064" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "TLV9064" (at 0.127 -1.524 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_description" "Quad rail-to-rail Operational Amplifier, SOIC (14)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TLV9064_1_1"
+        (polyline
+          (pts
+            (xy -5.08 -1.905)
+            (xy 5.08 -6.985)
+            (xy -5.08 -12.065)
+            (xy -5.08 -1.905)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type background))
+        )
+        (pin output line (at 7.62 -6.985 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 -9.525 0) (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 -4.445 0) (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "TLV9064_2_1"
+        (polyline
+          (pts
+            (xy -5.08 -1.905)
+            (xy 5.08 -6.985)
+            (xy -5.08 -12.065)
+            (xy -5.08 -1.905)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type background))
+        )
+        (pin input line (at -7.62 -4.445 0) (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 -9.525 0) (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 -6.985 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "TLV9064_3_1"
+        (polyline
+          (pts
+            (xy -5.08 -1.905)
+            (xy 5.08 -6.985)
+            (xy -5.08 -12.065)
+            (xy -5.08 -1.905)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type background))
+        )
+        (pin input line (at -7.62 -4.445 0) (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 -6.985 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 -9.525 0) (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "TLV9064_4_1"
+        (polyline
+          (pts
+            (xy -5.08 -1.905)
+            (xy 5.08 -6.985)
+            (xy -5.08 -12.065)
+            (xy -5.08 -1.905)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type background))
+        )
+        (pin input line (at -7.62 -4.445 0) (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "12" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 -9.525 0) (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "13" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 -6.985 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "14" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "TLV9064_5_1"
+        (pin power_in line (at 0 -19.05 90) (length 2.54)
+          (name "V-" (effects (font (size 1.27 1.27))))
+          (number "11" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -3.81 270) (length 2.54)
+          (name "V+" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "blocks-rescue:+3.3V-power" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3V-power" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3.3V-power_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3V-power_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -606,21 +694,9 @@
     (stroke (width 0) (type default))
     (uuid 0c4f091f-347c-4855-8372-14e96c681bf6)
   )
-  (wire (pts (xy 72.39 168.275) (xy 72.39 166.37))
-    (stroke (width 0) (type default))
-    (uuid 0ec46744-cc1d-4d9d-93ed-67c4aa58c613)
-  )
   (wire (pts (xy 248.285 31.115) (xy 254 31.115))
     (stroke (width 0) (type default))
     (uuid 0ecebe2c-c905-4677-831a-f7a9ea585906)
-  )
-  (wire (pts (xy 35.56 183.515) (xy 35.56 185.42))
-    (stroke (width 0) (type default))
-    (uuid 0fba7779-d676-4e7c-a798-ffee2ca201d4)
-  )
-  (wire (pts (xy 85.09 168.275) (xy 85.09 166.37))
-    (stroke (width 0) (type default))
-    (uuid 0fcf8223-4ef4-488e-8a4b-bcc979b5edb1)
   )
   (wire (pts (xy 50.8 146.05) (xy 50.8 140.97))
     (stroke (width 0) (type default))
@@ -689,10 +765,6 @@
   (wire (pts (xy 305.435 135.255) (xy 304.8 135.255))
     (stroke (width 0) (type default))
     (uuid 1fa9d6ae-3c20-4cd2-b7b8-2c27bdbb306b)
-  )
-  (wire (pts (xy 60.96 185.42) (xy 60.96 183.515))
-    (stroke (width 0) (type default))
-    (uuid 1fff2c42-1b75-4f1c-9ee1-a197cc50acde)
   )
   (wire (pts (xy 212.725 111.125) (xy 234.95 111.125))
     (stroke (width 0) (type default))
@@ -930,10 +1002,6 @@
     (stroke (width 0) (type default))
     (uuid 61abf397-6a4a-4204-9c18-123c9140ea94)
   )
-  (wire (pts (xy 48.26 185.42) (xy 48.26 183.515))
-    (stroke (width 0) (type default))
-    (uuid 62eb894f-f7d9-40bb-ac8d-097a179af5a6)
-  )
   (wire (pts (xy 299.72 73.025) (xy 299.72 78.105))
     (stroke (width 0) (type default))
     (uuid 6392d313-2e68-4307-a4ed-3279a0389c0a)
@@ -1006,10 +1074,6 @@
     (stroke (width 0) (type default))
     (uuid 763e5d5c-b78c-41a8-880b-f41ccbd75737)
   )
-  (wire (pts (xy 22.86 168.275) (xy 22.86 166.37))
-    (stroke (width 0) (type default))
-    (uuid 7bd6494b-5dac-420c-83a2-3e69adb7ab41)
-  )
   (wire (pts (xy 165.735 63.5) (xy 166.37 63.5))
     (stroke (width 0) (type default))
     (uuid 7d6f3dd0-33bf-4a5e-9a31-34587fd8e872)
@@ -1054,10 +1118,6 @@
     (stroke (width 0) (type default))
     (uuid 83770208-3be0-4bfe-a112-f80383185178)
   )
-  (wire (pts (xy 72.39 185.42) (xy 72.39 183.515))
-    (stroke (width 0) (type default))
-    (uuid 83d04163-1876-446f-a2d7-ec096db13b8f)
-  )
   (wire (pts (xy 82.55 146.05) (xy 82.55 143.51))
     (stroke (width 0) (type default))
     (uuid 83ddf119-4143-451f-975c-96d49ecf6143)
@@ -1065,14 +1125,6 @@
   (wire (pts (xy 331.47 147.955) (xy 331.47 145.415))
     (stroke (width 0) (type default))
     (uuid 83f28360-50bd-41e3-b951-b6470e690bfb)
-  )
-  (wire (pts (xy 48.26 168.275) (xy 48.26 166.37))
-    (stroke (width 0) (type default))
-    (uuid 85293814-f7c8-48ce-aeb8-262a7b203a45)
-  )
-  (wire (pts (xy 35.56 168.275) (xy 35.56 166.37))
-    (stroke (width 0) (type default))
-    (uuid 884192ce-dc44-4bce-8958-878c1c35266c)
   )
   (wire (pts (xy 146.05 92.075) (xy 152.4 92.075))
     (stroke (width 0) (type default))
@@ -1169,10 +1221,6 @@
   (wire (pts (xy 331.47 30.48) (xy 331.47 33.02))
     (stroke (width 0) (type default))
     (uuid 99070ab7-a5f7-4990-9ff0-bc3e38016788)
-  )
-  (wire (pts (xy 22.86 185.42) (xy 22.86 183.515))
-    (stroke (width 0) (type default))
-    (uuid 998edde9-e8ee-46bd-bec4-9ffa0f4b2a43)
   )
   (wire (pts (xy 234.95 76.2) (xy 234.95 66.04))
     (stroke (width 0) (type default))
@@ -1482,10 +1530,6 @@
     (stroke (width 0) (type default))
     (uuid e5a2ec9e-e4cf-4c32-a308-2ee5427c1495)
   )
-  (wire (pts (xy 85.09 185.42) (xy 85.09 183.515))
-    (stroke (width 0) (type default))
-    (uuid e67328f2-288d-4e8c-b4e1-7cdc1178e04e)
-  )
   (wire (pts (xy 299.72 22.86) (xy 299.72 20.955))
     (stroke (width 0) (type default))
     (uuid e854d0a9-5be1-49b2-a9be-6e5d404ad858)
@@ -1497,10 +1541,6 @@
   (wire (pts (xy 69.85 28.575) (xy 64.135 28.575))
     (stroke (width 0) (type default))
     (uuid eaf9f617-4447-4f9c-92ea-7354391846b3)
-  )
-  (wire (pts (xy 60.96 168.275) (xy 60.96 166.37))
-    (stroke (width 0) (type default))
-    (uuid ec95f3ec-7df7-402e-94c6-f411eea573ef)
   )
   (wire (pts (xy 344.17 30.48) (xy 331.47 30.48))
     (stroke (width 0) (type default))
@@ -1573,6 +1613,11 @@
   (wire (pts (xy 95.25 138.43) (xy 92.075 138.43))
     (stroke (width 0) (type default))
     (uuid fe354a5a-c90a-447b-9be3-53aeb9d0429d)
+  )
+
+  (text "hej" (at 133.35 193.675 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e7c465d4-898a-4701-ae52-81087adb485a)
   )
 
   (hierarchical_label "ANALOG_5_SIGNAL" (shape input) (at 146.05 22.225 180) (fields_autoplaced)
@@ -1695,11 +1740,6 @@
           (reference "R19") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R19") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R19") (unit 1)
@@ -1725,11 +1765,6 @@
     )
     (pin "1" (uuid 506ba38e-e50a-48cf-b36e-aa6a3fe25a20))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR060") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR060") (unit 1)
@@ -1755,11 +1790,6 @@
     )
     (pin "1" (uuid 3d6ff3cf-8c54-417d-9dd3-946a3c5c6141))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR059") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR059") (unit 1)
@@ -1788,11 +1818,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R23") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R23") (unit 1)
         )
       )
@@ -1827,11 +1852,6 @@
           (reference "C11") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "C11") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C11") (unit 1)
@@ -1863,98 +1883,9 @@
           (reference "R27") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R27") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R27") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 102.87 31.115 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005ec1c459)
-    (property "Reference" "U5" (at 102.87 23.495 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM358" (at 102.87 25.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 102.87 31.115 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 102.87 31.115 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 88f48768-4fdf-4742-bfad-38dc43de0ea1))
-    (pin "2" (uuid d6c72595-b5b8-421e-9fcd-d4fa7fe71821))
-    (pin "3" (uuid e7f141e2-7cbe-4fcb-b72e-0b9536358561))
-    (pin "5" (uuid cabb4e11-4271-4875-8687-a6c355fdd965))
-    (pin "6" (uuid d7b62cc1-e56d-4edd-ab6d-4fb214761abc))
-    (pin "7" (uuid 9dc63f3d-d7d1-4b03-97bf-7bb8847da1d2))
-    (pin "4" (uuid 9ae2c649-5f58-4fde-ae27-fbef76694b50))
-    (pin "8" (uuid c918f7a9-77d0-4f92-aac4-7bf4898763ba))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U5") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U5") (unit 1)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 102.87 66.04 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005ec232a2)
-    (property "Reference" "U5" (at 102.87 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM358" (at 102.87 60.325 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 102.87 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 102.87 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a9146fec-c07b-4a0e-a842-e836d41c24a4))
-    (pin "2" (uuid 6699b4ce-4a9e-4b77-86f2-479d9c956d7c))
-    (pin "3" (uuid 6e4817e4-98a1-4877-adac-23ae2aa1bd81))
-    (pin "5" (uuid 23a160ad-8f61-49ce-b7db-c7ffa9fe07ee))
-    (pin "6" (uuid b78a39b5-7f61-401e-a494-8dfb88a108c0))
-    (pin "7" (uuid dcf3c96e-778b-4a5d-b334-da4ab59dca14))
-    (pin "4" (uuid 729df3b4-c6b9-4460-b580-1d2780208fe1))
-    (pin "8" (uuid a42f271e-ddd1-481d-ba79-86192c274cbc))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U5") (unit 2)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U5") (unit 2)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U1") (unit 2)
         )
       )
     )
@@ -1983,11 +1914,6 @@
           (reference "R20") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R20") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R20") (unit 1)
@@ -2013,11 +1939,6 @@
     )
     (pin "1" (uuid 5339142f-8a90-41a2-ab97-12748644edb1))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR062") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR062") (unit 1)
@@ -2043,11 +1964,6 @@
     )
     (pin "1" (uuid e4b0e12e-464e-4163-906b-cf1353402f83))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR061") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR061") (unit 1)
@@ -2076,11 +1992,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R24") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R24") (unit 1)
         )
       )
@@ -2115,11 +2026,6 @@
           (reference "C12") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "C12") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C12") (unit 1)
@@ -2148,11 +2054,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R28") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R28") (unit 1)
         )
       )
@@ -2187,11 +2088,6 @@
           (reference "R31") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R31") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R31") (unit 1)
@@ -2220,11 +2116,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R32") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R32") (unit 1)
         )
       )
@@ -2259,11 +2150,6 @@
           (reference "R21") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R21") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R21") (unit 1)
@@ -2289,11 +2175,6 @@
     )
     (pin "1" (uuid ec91d114-d160-4e15-8a8f-6e19716f8559))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR064") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR064") (unit 1)
@@ -2319,11 +2200,6 @@
     )
     (pin "1" (uuid fee4ce20-8d69-4f25-8689-c8be360d9aa7))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR063") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR063") (unit 1)
@@ -2352,11 +2228,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R25") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R25") (unit 1)
         )
       )
@@ -2391,11 +2262,6 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "C13") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C13") (unit 1)
@@ -2427,98 +2293,9 @@
           (reference "R29") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R29") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R29") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 102.87 100.965 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005ec4fe58)
-    (property "Reference" "U6" (at 102.87 93.345 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM358" (at 102.87 95.25 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 102.87 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 102.87 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid df90170f-e63a-49e1-8765-0331ff56e299))
-    (pin "2" (uuid 5210e0d9-4607-4520-9389-b178cffa7179))
-    (pin "3" (uuid 8a7eb550-6743-4778-bfff-710b0e16b5ed))
-    (pin "5" (uuid 76b30b23-bbc9-4d77-91b8-5c8b0eb5eb0e))
-    (pin "6" (uuid e0f4cb4a-729e-4d35-9c58-4ac4d466dc37))
-    (pin "7" (uuid 3009c6c2-93cb-43fa-ae6f-65b95eaa1cc3))
-    (pin "4" (uuid 474203fb-b051-48d7-9bae-917708a59c28))
-    (pin "8" (uuid 872414fa-3117-4bde-96be-49ce689978e7))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U6") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U6") (unit 1)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 102.87 135.89 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005ec4fe62)
-    (property "Reference" "U6" (at 102.87 128.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM358" (at 102.87 130.175 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 102.87 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 102.87 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 05b05d56-3041-45c6-a81b-712c728bbbf4))
-    (pin "2" (uuid bfc271de-fdb1-4b2d-a7dd-77f115360e4d))
-    (pin "3" (uuid d7e96336-1924-4cea-be36-d53130e9734b))
-    (pin "5" (uuid 2a6e5a8e-fcfe-43a9-b063-a273233db2dc))
-    (pin "6" (uuid b5102fc7-ad13-466b-9167-1082e14b9e61))
-    (pin "7" (uuid f83b844c-2396-4eb0-a6de-71b60e545ff3))
-    (pin "4" (uuid 4db70cf4-3125-40d8-94f3-9defb5ff2a8e))
-    (pin "8" (uuid c8c7699d-e88a-4e76-bb7a-d71279e02ffe))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U6") (unit 2)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U6") (unit 2)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U3") (unit 2)
         )
       )
     )
@@ -2547,11 +2324,6 @@
           (reference "R22") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R22") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R22") (unit 1)
@@ -2577,11 +2349,6 @@
     )
     (pin "1" (uuid 95dad494-ee9d-4960-982b-2db1939591af))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR066") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR066") (unit 1)
@@ -2607,11 +2374,6 @@
     )
     (pin "1" (uuid 2a9873fa-1a1f-45f9-92ae-adecac47c2b8))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR065") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR065") (unit 1)
@@ -2640,11 +2402,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R26") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R26") (unit 1)
         )
       )
@@ -2679,11 +2436,6 @@
           (reference "C14") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "C14") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C14") (unit 1)
@@ -2712,11 +2464,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R30") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R30") (unit 1)
         )
       )
@@ -2751,11 +2498,6 @@
           (reference "R33") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R33") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R33") (unit 1)
@@ -2787,11 +2529,6 @@
           (reference "R34") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R34") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R34") (unit 1)
@@ -2817,16 +2554,11 @@
     )
     (pin "1" (uuid fab7cb59-8f96-4b31-9871-456be4eb64fb))
     (pin "2" (uuid 5ad1c751-143b-42cc-9b09-63b6221bddf9))
-    (pin "3" (uuid a94d14f3-da50-4671-a80b-317dcca52901))
-    (pin "3" (uuid a94d14f3-da50-4671-a80b-317dcca52901))
+    (pin "3" (uuid a94d14f3-da50-4671-a80b-317dcca528fe))
+    (pin "3" (uuid a94d14f3-da50-4671-a80b-317dcca528fe))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "D25") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D25") (unit 1)
         )
       )
@@ -2855,16 +2587,11 @@
     )
     (pin "1" (uuid 4faf8a4b-0e96-4a24-8e4c-2237d050db9a))
     (pin "2" (uuid 8cec1cb9-1a56-4507-9d8c-e7e9a10e590e))
-    (pin "3" (uuid 44822555-709d-44d0-a308-723fdacc4ab4))
-    (pin "3" (uuid 44822555-709d-44d0-a308-723fdacc4ab4))
+    (pin "3" (uuid 44822555-709d-44d0-a308-723fdacc4ab1))
+    (pin "3" (uuid 44822555-709d-44d0-a308-723fdacc4ab1))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "D26") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D26") (unit 1)
         )
       )
@@ -2893,16 +2620,11 @@
     )
     (pin "1" (uuid e7d6c994-be09-4b3e-b909-e1d066736436))
     (pin "2" (uuid 015e1dcd-fcf9-4cf6-8957-17928309ab1c))
-    (pin "3" (uuid 5fd53e97-8367-4fdd-a778-2b7a19fe23dd))
-    (pin "3" (uuid 5fd53e97-8367-4fdd-a778-2b7a19fe23dd))
+    (pin "3" (uuid 5fd53e97-8367-4fdd-a778-2b7a19fe23da))
+    (pin "3" (uuid 5fd53e97-8367-4fdd-a778-2b7a19fe23da))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "D27") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D27") (unit 1)
         )
       )
@@ -2931,16 +2653,11 @@
     )
     (pin "1" (uuid 785c1e76-3957-4889-8bd4-ce34b8bc2454))
     (pin "2" (uuid 98ad4bae-bcf3-415f-8434-cfd8f9522ab1))
-    (pin "3" (uuid 1bb1fd7b-f515-4a58-8b44-d6f86599c532))
-    (pin "3" (uuid 1bb1fd7b-f515-4a58-8b44-d6f86599c532))
+    (pin "3" (uuid 1bb1fd7b-f515-4a58-8b44-d6f86599c52f))
+    (pin "3" (uuid 1bb1fd7b-f515-4a58-8b44-d6f86599c52f))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "D28") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D28") (unit 1)
         )
       )
@@ -2969,11 +2686,6 @@
     )
     (pin "1" (uuid 7dd66a50-7d55-4b78-a374-6bbe2d420ccf))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0141") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0141") (unit 1)
@@ -2999,11 +2711,6 @@
     )
     (pin "1" (uuid 1a5327c9-090f-43e7-bcd8-b33fc931ee2f))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0140") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0140") (unit 1)
@@ -3029,11 +2736,6 @@
     )
     (pin "1" (uuid d5fc73ac-da19-4728-b6a3-38b34645c242))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0109") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0109") (unit 1)
@@ -3059,11 +2761,6 @@
     )
     (pin "1" (uuid ce5af0a1-b78f-4392-a797-817ac2795dbf))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0110") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0110") (unit 1)
@@ -3089,11 +2786,6 @@
     )
     (pin "1" (uuid 28f95df3-93d0-44d3-bab3-d02484f35e7d))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0138") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0138") (unit 1)
@@ -3119,11 +2811,6 @@
     )
     (pin "1" (uuid c0ab75e8-87eb-4884-9af3-715ac6d3050f))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0137") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0137") (unit 1)
@@ -3149,11 +2836,6 @@
     )
     (pin "1" (uuid 4ae3f0cb-5e62-42f9-807e-755ed742d300))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0111") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0111") (unit 1)
@@ -3179,56 +2861,9 @@
     )
     (pin "1" (uuid 2dc16150-ca57-4975-86d1-edc66db99d94))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0112") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0112") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 223.52 66.04 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000063948c3e)
-    (property "Reference" "U1" (at 223.52 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM358" (at 223.52 60.325 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 223.52 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 223.52 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 576dd73f-8c02-48bf-98b1-3194a6474a90))
-    (pin "2" (uuid 4e3d9de6-3a61-4efa-beef-5961ff001dbd))
-    (pin "3" (uuid 0f1f55ad-a065-462a-bb42-04a27698a281))
-    (pin "5" (uuid 9106a28d-b998-457e-be8a-64ebc9c1f63a))
-    (pin "6" (uuid 309e77f4-3453-4550-9f60-1bc9f723f13f))
-    (pin "7" (uuid 15166f42-17ab-4bbb-9e94-e4ff22c39215))
-    (pin "4" (uuid 36dc7e0b-0277-4fb8-8c98-955ef57b40cc))
-    (pin "8" (uuid 1ca37fe6-478e-4718-b4d0-7c07793a3a92))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U1") (unit 2)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U1") (unit 2)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U5") (unit 2)
         )
       )
     )
@@ -3251,16 +2886,11 @@
     )
     (pin "1" (uuid d28f561f-de66-4d04-b12b-6c7c4ce6a4dd))
     (pin "2" (uuid 9c005535-c35b-44a6-a8f8-a049b160067e))
-    (pin "3" (uuid 4b1dcab5-08bf-4a3f-b615-e9742f54399c))
-    (pin "3" (uuid 4b1dcab5-08bf-4a3f-b615-e9742f54399c))
+    (pin "3" (uuid 4b1dcab5-08bf-4a3f-b615-e9742f543999))
+    (pin "3" (uuid 4b1dcab5-08bf-4a3f-b615-e9742f543999))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "D17") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D17") (unit 1)
         )
       )
@@ -3289,16 +2919,11 @@
     )
     (pin "1" (uuid 2588647f-b901-43fe-a60e-a7a70ef0bc37))
     (pin "2" (uuid 25f089b3-27f7-4734-9916-a4a44028642d))
-    (pin "3" (uuid c35de8e6-7cb1-4994-88b8-9f6a806a346b))
-    (pin "3" (uuid c35de8e6-7cb1-4994-88b8-9f6a806a346b))
+    (pin "3" (uuid c35de8e6-7cb1-4994-88b8-9f6a806a3468))
+    (pin "3" (uuid c35de8e6-7cb1-4994-88b8-9f6a806a3468))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "D18") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D18") (unit 1)
         )
       )
@@ -3333,11 +2958,6 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "C1") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C1") (unit 1)
@@ -3369,56 +2989,9 @@
           (reference "R7") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R7") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 223.52 31.115 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000063948c70)
-    (property "Reference" "U1" (at 223.52 23.495 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM358" (at 223.52 25.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 223.52 31.115 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 223.52 31.115 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8db5ae7b-d519-44fd-bb76-dce0fc4265b3))
-    (pin "2" (uuid aa291c8c-f90f-41f2-a2fb-fd610bba66d9))
-    (pin "3" (uuid 1a701c6f-e5f7-4a97-91d8-5674b110b9e0))
-    (pin "5" (uuid bf82e01b-e1a7-4ddb-8bb2-b855666622f1))
-    (pin "6" (uuid 66649a40-c5e3-471c-a675-f7aa6b29fd06))
-    (pin "7" (uuid f237b594-b67c-44d1-bbf9-6497a15540df))
-    (pin "4" (uuid 5c6f0db3-1f35-466e-921b-b39754a657de))
-    (pin "8" (uuid 8d141fd9-4b9f-40d4-8ae3-3571613ca2a0))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U1") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U1") (unit 1)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U5") (unit 1)
         )
       )
     )
@@ -3444,11 +3017,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R5") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R5") (unit 1)
         )
       )
@@ -3483,11 +3051,6 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R3") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R3") (unit 1)
@@ -3516,11 +3079,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R1") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R1") (unit 1)
         )
       )
@@ -3555,11 +3113,6 @@
           (reference "C2") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "C2") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C2") (unit 1)
@@ -3588,11 +3141,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R8") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R8") (unit 1)
         )
       )
@@ -3627,11 +3175,6 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R6") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R6") (unit 1)
@@ -3660,11 +3203,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R4") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R4") (unit 1)
         )
       )
@@ -3699,11 +3237,6 @@
           (reference "R2") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R2") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R2") (unit 1)
@@ -3729,11 +3262,6 @@
     )
     (pin "1" (uuid 004db2fe-1acc-437b-bf60-692498ebb046))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0113") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0113") (unit 1)
@@ -3759,11 +3287,6 @@
     )
     (pin "1" (uuid 927045f0-e176-4ad6-94f0-4eaef4fc3511))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0114") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0114") (unit 1)
@@ -3789,11 +3312,6 @@
     )
     (pin "1" (uuid 32e33a97-5914-4b46-96a6-7839086b50e4))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0115") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0115") (unit 1)
@@ -3819,11 +3337,6 @@
     )
     (pin "1" (uuid c77a243d-2e26-48b1-aa65-0f0775e8810d))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0142") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0142") (unit 1)
@@ -3849,11 +3362,6 @@
     )
     (pin "1" (uuid b320b16e-47ac-437c-84ca-ece617be1f53))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0118") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0118") (unit 1)
@@ -3879,11 +3387,6 @@
     )
     (pin "1" (uuid f413d91b-2e6a-448f-8ba2-9da7021cf376))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0119") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0119") (unit 1)
@@ -3909,11 +3412,6 @@
     )
     (pin "1" (uuid e6249b3e-e9df-4d88-b522-4b4ae651513d))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0120") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0120") (unit 1)
@@ -3939,11 +3437,6 @@
     )
     (pin "1" (uuid 6494b2cb-b6a5-4726-b341-af81dcfff8c1))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0121") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0121") (unit 1)
@@ -3972,11 +3465,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R14") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R14") (unit 1)
         )
       )
@@ -4011,11 +3499,6 @@
           (reference "R16") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R16") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R16") (unit 1)
@@ -4044,11 +3527,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R18") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R18") (unit 1)
         )
       )
@@ -4083,56 +3561,9 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "C10") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 223.52 100.965 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000063a653c4)
-    (property "Reference" "U4" (at 223.52 93.345 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM358" (at 223.52 95.25 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 223.52 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 223.52 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 691ccb09-9fce-4690-9874-d56b3d6a2da4))
-    (pin "2" (uuid b12d9632-2f7c-446e-bd2d-199eabd0d37e))
-    (pin "3" (uuid c5d0f52c-6a23-4de1-872f-f9162a85558e))
-    (pin "5" (uuid db36edd8-32a3-4ba8-8aa1-19f9acd0e70e))
-    (pin "6" (uuid d6bb1d41-e788-489a-8d94-6e1583e605e1))
-    (pin "7" (uuid 23513f62-ec75-45a8-90b0-269fe65b11fe))
-    (pin "4" (uuid 7e9cc2d7-9a2d-4b06-a513-f59f8b33a14d))
-    (pin "8" (uuid 573fbf9f-81d3-4b0e-b8a8-727c85c64428))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U4") (unit 2)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U4") (unit 2)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U7") (unit 1)
         )
       )
     )
@@ -4161,11 +3592,6 @@
           (reference "R12") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R12") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R12") (unit 1)
@@ -4191,16 +3617,11 @@
     )
     (pin "1" (uuid 19c7058c-d249-425c-b3f2-44fb0e581859))
     (pin "2" (uuid efd05df2-7fc3-4b10-ab21-74f87ee81bd4))
-    (pin "3" (uuid 643c76b5-f764-447f-ad1b-730d113b179b))
-    (pin "3" (uuid 643c76b5-f764-447f-ad1b-730d113b179b))
+    (pin "3" (uuid 643c76b5-f764-447f-ad1b-730d113b1798))
+    (pin "3" (uuid 643c76b5-f764-447f-ad1b-730d113b1798))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "D24") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D24") (unit 1)
         )
       )
@@ -4229,16 +3650,11 @@
     )
     (pin "1" (uuid 35a4e8c1-729d-4879-8d32-9ef43e0be744))
     (pin "2" (uuid 3d27b4da-5b51-4079-9e2d-b925630e6ce3))
-    (pin "3" (uuid 3f340f80-fb61-423d-8ace-950a53d6d853))
-    (pin "3" (uuid 3f340f80-fb61-423d-8ace-950a53d6d853))
+    (pin "3" (uuid 3f340f80-fb61-423d-8ace-950a53d6d850))
+    (pin "3" (uuid 3f340f80-fb61-423d-8ace-950a53d6d850))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "D23") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D23") (unit 1)
         )
       )
@@ -4273,11 +3689,6 @@
           (reference "C9") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "C9") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C9") (unit 1)
@@ -4309,56 +3720,9 @@
           (reference "R17") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R17") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 223.52 135.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000063a653f8)
-    (property "Reference" "U4" (at 223.52 128.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM358" (at 223.52 130.175 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 223.52 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 223.52 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7f6e1650-16ce-44c4-8614-03bc9d3702ff))
-    (pin "2" (uuid bcf358a6-e988-4d6e-99b7-a3834cae4155))
-    (pin "3" (uuid f5112fbb-99e5-4184-8212-350f771dbf17))
-    (pin "5" (uuid 1838fbb2-c931-4bb7-80cc-776765a11966))
-    (pin "6" (uuid fc474a12-a1d1-4c91-806d-9289a89e744c))
-    (pin "7" (uuid 6aded3b9-6100-499e-afe7-40627950a532))
-    (pin "4" (uuid 39ac5404-b280-4d56-8cc8-8a09a44f4d63))
-    (pin "8" (uuid 313abdc8-ffcb-45ab-a95f-a3cd261f6541))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U4") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U4") (unit 1)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U7") (unit 2)
         )
       )
     )
@@ -4384,11 +3748,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R15") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R15") (unit 1)
         )
       )
@@ -4423,11 +3782,6 @@
           (reference "R13") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R13") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R13") (unit 1)
@@ -4455,11 +3809,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0143") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "#PWR0143") (unit 1)
         )
       )
@@ -4494,11 +3843,6 @@
           (reference "R11") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R11") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R11") (unit 1)
@@ -4524,11 +3868,6 @@
     )
     (pin "1" (uuid 182da386-1325-4ce2-a944-260fb81c2f49))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0130") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0130") (unit 1)
@@ -4554,11 +3893,6 @@
     )
     (pin "1" (uuid 1689fadc-6f10-4d71-ab45-2ea291f0b9b2))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0131") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0131") (unit 1)
@@ -4584,11 +3918,6 @@
     )
     (pin "1" (uuid d6a20b91-34c6-4502-b2d5-ccb0f2398d68))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0132") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0132") (unit 1)
@@ -4614,11 +3943,6 @@
     )
     (pin "1" (uuid 113ee388-f2e0-47d8-9a26-52394cbcdb6d))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0133") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0133") (unit 1)
@@ -4644,11 +3968,6 @@
     )
     (pin "1" (uuid dd2e2e4a-387f-4dee-ba99-821d44819f42))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0134") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0134") (unit 1)
@@ -4674,11 +3993,6 @@
     )
     (pin "1" (uuid 7c3ce02a-2b96-4485-a67c-5f23ac5e2edf))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0135") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0135") (unit 1)
@@ -4704,74 +4018,9 @@
     )
     (pin "1" (uuid e95d4fd3-52f9-44ac-9700-22b9913c96ec))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0136") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR0136") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 35.56 166.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 01fae715-b4a3-4309-804b-5af95d3124bf)
-    (property "Reference" "#PWR019" (at 35.56 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 35.56 162.56 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 35.56 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 35.56 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 06452f6f-429f-4f7c-80b8-68a7ca30939e))
-    (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 35.56 185.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 095ed890-03cd-4891-ad54-dacab2ba9362)
-    (property "Reference" "#PWR020" (at 35.56 191.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 35.687 189.8142 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 35.56 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 35.56 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 600d35d5-f9eb-499c-8b42-08044d5a95f1))
-    (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -4800,11 +4049,6 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R3") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R45") (unit 1)
@@ -4813,85 +4057,151 @@
     )
   )
 
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 87.63 175.895 0) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1be35725-68f9-4444-856d-31ac65871152)
-    (property "Reference" "U1" (at 86.36 174.625 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+  (symbol (lib_id "KTHFS:TLV9064") (at 102.87 93.98 0) (unit 2)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 10267d68-bc5a-4cfc-a2e0-e84278d420e8)
+    (property "Reference" "U2" (at 102.87 91.44 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LM358" (at 86.36 176.53 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "TLV9064" (at 102.87 93.98 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 87.63 175.895 0)
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 102.87 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 87.63 175.895 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 102.87 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 68eb4a2d-4c6b-4be7-8f91-400bf97491ce))
-    (pin "2" (uuid cde04bc2-fee4-469f-a1e2-eb62cac7bd6c))
-    (pin "3" (uuid 402a8896-d942-4404-b1fa-b412787d72b6))
-    (pin "5" (uuid 9914df62-605c-43d3-8673-b9e5ca3f5182))
-    (pin "6" (uuid 5dba2f63-4742-4252-afa0-91c970adfd91))
-    (pin "7" (uuid fc02b80a-296a-47b2-b116-45f098c36008))
-    (pin "4" (uuid 858dcdd8-dfa9-4b99-801b-d2af5c63cc25))
-    (pin "8" (uuid 2279d100-080d-469b-ac4f-e3a32f414bf9))
+    (pin "1" (uuid cfb22aca-6c59-47d2-8e3c-46c9df695b0f))
+    (pin "2" (uuid 3943d2f8-2904-4015-972b-24e3b3381f96))
+    (pin "3" (uuid e57b1e21-f161-4ad8-9f94-f1ae349f073d))
+    (pin "5" (uuid 5eac988a-de73-4b6d-b694-0c79d571c7e7))
+    (pin "6" (uuid e8516d88-84c1-4fd2-8a11-4b4eb7059b70))
+    (pin "7" (uuid 4f9c7ca3-68f9-4288-9cbf-b0827497003e))
+    (pin "10" (uuid 2c7f04ec-9564-4498-9569-0b96dcdbd748))
+    (pin "8" (uuid eb5c3ca4-3e64-4109-a4a8-496057a4beec))
+    (pin "9" (uuid 0b978773-0b32-4804-b83d-2e8d3d3beff5))
+    (pin "12" (uuid d03c9003-c3b5-4d8e-b831-38264b8859fb))
+    (pin "13" (uuid 5e4a134a-1d95-403b-a4f0-244c0970dc74))
+    (pin "14" (uuid a84b72c4-4ae7-49a9-8f4f-6bd2e61125a7))
+    (pin "11" (uuid 4174f2d7-aec2-4b91-a6af-665249f8c3b5))
+    (pin "4" (uuid 531cdefc-0639-45bc-9795-703859ca62e5))
     (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U1") (unit 3)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U1") (unit 3)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U11") (unit 3)
+          (reference "U2") (unit 2)
         )
       )
     )
   )
 
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 50.8 175.895 0) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 22b9f946-42f2-441a-b30f-b11d170ee944)
-    (property "Reference" "U4" (at 49.53 174.625 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+  (symbol (lib_id "KTHFS:TLV9064") (at 351.79 130.81 0) (unit 4)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 120dee2f-668b-4883-a0ca-07b1caffbc1f)
+    (property "Reference" "U6" (at 351.79 128.27 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LM358" (at 49.53 176.53 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "TLV9064" (at 351.79 130.81 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 50.8 175.895 0)
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 351.79 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 50.8 175.895 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 351.79 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5e332cfb-e353-402d-866d-c89a0f678e7e))
-    (pin "2" (uuid 8b4f52db-ef68-4f21-9a44-68dc9c921796))
-    (pin "3" (uuid 10cb84a5-35da-482d-9ece-3aeff409fcf4))
-    (pin "5" (uuid 17961b10-489a-4952-a734-6ad8fb9fb9f4))
-    (pin "6" (uuid e989e44d-34be-4727-9be6-703ec054ea69))
-    (pin "7" (uuid 11d4de0d-3866-4afe-8e5c-59a6f3b3d00e))
-    (pin "4" (uuid caf7d187-dec1-44c3-95ab-5b99c56933a9))
-    (pin "8" (uuid 4950d97c-eb6b-4f9b-876c-c03c63e965ae))
+    (pin "1" (uuid 538f8f8f-95d2-483e-ae0c-0179bac302ac))
+    (pin "2" (uuid 906c36e4-8f11-437c-82d1-f7b8f60b7437))
+    (pin "3" (uuid 09dab058-0ca8-4bcc-9610-aaafcf7f39d7))
+    (pin "5" (uuid 45cc4aa7-eb6c-4971-afcf-215b0ed03bf8))
+    (pin "6" (uuid 8d10ca84-f1ed-4bcd-9f2c-b22081336a16))
+    (pin "7" (uuid 818641ee-5b4a-4195-9a5e-093a75e1ff11))
+    (pin "10" (uuid 67433461-2f27-4974-88e0-4926d0f4126f))
+    (pin "8" (uuid a154338a-47e6-4427-b77b-6041f4e1a4ae))
+    (pin "9" (uuid c061abcd-f74e-43bc-93df-9bdcc9e1f5b6))
+    (pin "12" (uuid 7824c8b8-9f11-47c7-8442-a0b01a8626c0))
+    (pin "13" (uuid 7717c434-0d77-4c42-a134-c6b2516a38c4))
+    (pin "14" (uuid cf5dc7c1-5bb6-444b-bd13-18ad44c2363b))
+    (pin "11" (uuid 5b4536b4-e9b7-4e5e-8c76-9e999e2d9061))
+    (pin "4" (uuid 5d5f47a1-ec48-4379-b0a3-9d8916679738))
     (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U4") (unit 3)
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
+          (reference "U6") (unit 4)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U4") (unit 3)
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 56.515 167.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1c433d26-fe9a-4a77-9960-66dce2a9f95c)
+    (property "Reference" "C?" (at 59.436 166.4716 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 59.436 168.783 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 57.4802 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 56.515 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b294127a-d4a9-48f1-a53c-0ab3623fb93c))
+    (pin "2" (uuid 86f10a1c-a4a3-42ff-b50e-3a0b2d89435c))
+    (instances
+      (project "MCU"
+        (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "C?") (unit 1)
+        )
+      )
+      (project "blocks"
+        (path "/9805bc69-1175-4e73-a53f-b71c343de45b/00000000-0000-0000-0000-00005fa7effd"
+          (reference "C?") (unit 1)
         )
       )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U5") (unit 3)
+          (reference "C3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "KTHFS:TLV9064") (at 223.52 128.905 0) (unit 4)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2110c1f7-d929-46b1-b684-374eaff3ffc2)
+    (property "Reference" "U4" (at 223.52 126.365 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TLV9064" (at 223.52 128.905 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 223.52 128.905 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 223.52 128.905 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid eafcc85b-a285-48e6-8ca5-99844f46c5ab))
+    (pin "2" (uuid f9bfc2b8-b949-4452-b9a8-285370ea2632))
+    (pin "3" (uuid e4094410-a286-41b9-affc-8380f2c623c9))
+    (pin "5" (uuid 3ccd346a-0981-4c59-a28c-e1ff2d897f87))
+    (pin "6" (uuid ba9fb919-8f82-44f9-aa34-f00c55a827db))
+    (pin "7" (uuid 3915baa8-8cd8-486f-a845-dffec4711f27))
+    (pin "10" (uuid 0899e961-302a-4586-8a6e-122d3f2c8e70))
+    (pin "8" (uuid 485855aa-8bba-4b2a-93b8-58811800b208))
+    (pin "9" (uuid 662e6c9b-df61-4286-bb28-b022203da54d))
+    (pin "12" (uuid 7c506950-a313-419e-a67c-1d213adf3c46))
+    (pin "13" (uuid db15f606-0223-4e44-ace5-2af5bf8d36a0))
+    (pin "14" (uuid 6eb7ccda-1822-4fba-abac-aaa4d97d5b00))
+    (pin "11" (uuid bba08ed4-ec69-4508-8075-8dc228cd320c))
+    (pin "4" (uuid 218fb147-7317-4aad-af0f-b93aa4fc5a6b))
+    (instances
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
+          (reference "U4") (unit 4)
         )
       )
     )
@@ -4914,11 +4224,6 @@
     )
     (pin "1" (uuid 78386472-1599-46ce-b49b-718505a5b091))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR016") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR016") (unit 1)
@@ -4944,11 +4249,6 @@
     )
     (pin "1" (uuid 99aba70a-fe71-4437-b9f7-141f52f3b8c2))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR04") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR04") (unit 1)
@@ -4977,11 +4277,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R4") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R4") (unit 1)
         )
       )
@@ -5016,14 +4311,47 @@
           (reference "R5") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R5") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R49") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "KTHFS:TLV9064") (at 102.87 128.905 0) (unit 4)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 29f569ad-b3c3-42eb-944f-2c9af7cb64c5)
+    (property "Reference" "U2" (at 102.87 126.365 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TLV9064" (at 102.87 128.905 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 102.87 128.905 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 102.87 128.905 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6c28a1a1-d8d1-4384-ae6a-76f6b6c4f258))
+    (pin "2" (uuid e77e3533-091f-4317-8270-6ced757ffe01))
+    (pin "3" (uuid ca9b5f56-9ea1-4181-8872-a7f04f59b027))
+    (pin "5" (uuid c829897b-b750-4e02-b838-6b06f5ad5f0a))
+    (pin "6" (uuid 7e5fe3fe-0412-45fb-869b-4896da8a02ea))
+    (pin "7" (uuid 6d5fdfdb-c507-4e6c-878e-8ca68bfb9641))
+    (pin "10" (uuid 65e03b5c-aeec-47ad-af88-14e39492eb24))
+    (pin "8" (uuid ae58b37e-b4d1-4652-831f-a21eb9599546))
+    (pin "9" (uuid 3d4fa963-5fb6-4e40-b37b-c5f03498c76c))
+    (pin "12" (uuid f33797ee-968d-4686-8aa2-8de77b3342af))
+    (pin "13" (uuid dd4ddf0a-f846-4517-a1bb-713779f9f080))
+    (pin "14" (uuid ae34091c-7ac2-49cc-87bd-abdafd099c76))
+    (pin "11" (uuid 15d60c82-7632-4f86-8ccd-cf7ace816f3e))
+    (pin "4" (uuid 8dcf65ed-8ec9-40a5-99f9-05c70f2fd390))
+    (instances
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
+          (reference "U2") (unit 4)
         )
       )
     )
@@ -5046,16 +4374,11 @@
     )
     (pin "1" (uuid f3fd57d6-5d9e-4698-af42-738494017ae3))
     (pin "2" (uuid c8ac68cd-495c-4220-812c-1cc950daf8e4))
-    (pin "3" (uuid 013f4385-b71a-4847-9091-3672abd50b02))
-    (pin "3" (uuid 013f4385-b71a-4847-9091-3672abd50b02))
+    (pin "3" (uuid 013f4385-b71a-4847-9091-3672abd50aff))
+    (pin "3" (uuid 013f4385-b71a-4847-9091-3672abd50aff))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "D24") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D24") (unit 1)
         )
       )
@@ -5090,11 +4413,6 @@
           (reference "R17") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R17") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R55") (unit 1)
@@ -5125,14 +4443,47 @@
           (reference "#PWR0143") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0143") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "KTHFS:TLV9064") (at 351.79 60.96 0) (unit 2)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 35d7b99b-4955-4eb1-ac19-4012bcceba6c)
+    (property "Reference" "U6" (at 351.79 58.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TLV9064" (at 351.79 60.96 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 351.79 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 351.79 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a7ea8e2d-9f39-4fd0-8378-b6c13f6c3480))
+    (pin "2" (uuid 268a200c-160d-4fa6-a1fc-d8107a16756c))
+    (pin "3" (uuid e5aa7198-5e8b-4a08-973e-9bd511becb9d))
+    (pin "5" (uuid 68d2f78c-dc02-4237-bcda-d5b7d30d05b0))
+    (pin "6" (uuid abddde47-26ba-44cc-b80d-64ea06f56853))
+    (pin "7" (uuid e0d66ee6-8443-4f43-a8c3-4f3e8b7bd0a3))
+    (pin "10" (uuid 04064dee-9f6c-45b5-b7de-0996eb9865ec))
+    (pin "8" (uuid 734c8624-2983-4f3c-8e27-e2be71c31080))
+    (pin "9" (uuid 251e59bf-15c2-4278-9737-a0e37b5e6eba))
+    (pin "12" (uuid 0363883e-3ed7-4cb1-83a8-d72d20f3ca8f))
+    (pin "13" (uuid 1864d6aa-1baa-467e-ae28-02154aa3365e))
+    (pin "14" (uuid 358ba3d8-6432-47c2-8a52-8ed9d821e02b))
+    (pin "11" (uuid cce59dd5-6486-48e9-a31a-238df6ef74ed))
+    (pin "4" (uuid bd87e8fb-39c9-4d4d-9b76-c5a3ec70edf5))
+    (instances
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
+          (reference "U6") (unit 2)
         )
       )
     )
@@ -5161,14 +4512,39 @@
           (reference "R12") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R12") (unit 1)
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
+          (reference "R39") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "blocks-rescue:+3.3V-power") (at 41.275 163.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 389408ec-9839-4323-a5e1-2aa31de72100)
+    (property "Reference" "#PWR?" (at 41.275 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 41.656 159.4358 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 41.275 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 41.275 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5a1b3f78-3b36-4923-9d09-f3b9bd50f03a))
+    (instances
+      (project "MCU"
+        (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "R39") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -5197,14 +4573,47 @@
           (reference "R16") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R16") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R50") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "KTHFS:TLV9064") (at 41.275 167.64 0) (unit 5)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3e9abdfb-8dab-452b-87fa-c347ba1b111d)
+    (property "Reference" "U4" (at 42.545 178.435 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TLV9064" (at 42.545 180.975 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 41.275 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 41.275 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 94c76157-58d0-4512-b42a-72e2651a9039))
+    (pin "2" (uuid 7d448816-debb-4abe-88cd-1f155d9d96a5))
+    (pin "3" (uuid 1149a9ed-1cdb-4a9d-8cb2-1505774d4b14))
+    (pin "5" (uuid 1dd2b66c-721b-4436-8b86-3b7c06fc0bc0))
+    (pin "6" (uuid 22297c29-8887-4b69-b47e-54ac840df44c))
+    (pin "7" (uuid 1b679861-7ae0-4e34-b8ae-79132f0709bc))
+    (pin "10" (uuid b03f4e6c-db6f-48ea-b297-159a02c36387))
+    (pin "8" (uuid e483756d-4c8e-4306-b7ac-072df279b61b))
+    (pin "9" (uuid cbdd60f4-34c6-4f6c-9497-8d5b237c10b5))
+    (pin "12" (uuid 7f27fbd2-e061-41c5-9d08-6f21e1f0d462))
+    (pin "13" (uuid 1cb59650-55c8-45a0-afad-34ed8fcbed73))
+    (pin "14" (uuid 578687a2-0769-429e-a2fc-c07a37d75ca3))
+    (pin "11" (uuid e44734d8-a812-4ae1-a235-af45ab64ae46))
+    (pin "4" (uuid 88762f35-71ca-462a-9427-b68a0b38593f))
+    (instances
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
+          (reference "U4") (unit 5)
         )
       )
     )
@@ -5227,11 +4636,6 @@
     )
     (pin "1" (uuid 26b30e72-d07c-4b0b-8c78-b213ab2613f3))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR06") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR06") (unit 1)
@@ -5257,11 +4661,6 @@
     )
     (pin "1" (uuid ba20a0c2-a72f-48d1-a671-a284058768f8))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR013") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR013") (unit 1)
@@ -5270,31 +4669,39 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 22.86 166.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 608d36d6-cd8a-4194-9932-6b0cb55b7e0c)
-    (property "Reference" "#PWR017" (at 22.86 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 22.86 162.56 0)
+  (symbol (lib_id "KTHFS:TLV9064") (at 102.87 59.055 0) (unit 3)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5946360f-8d75-455a-8e9f-7bd7c5637f59)
+    (property "Reference" "U2" (at 102.87 56.515 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 22.86 166.37 0)
+    (property "Value" "TLV9064" (at 102.87 59.055 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 102.87 59.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 22.86 166.37 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 102.87 59.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7385a380-5d5e-4d2d-8c96-ccfeff584bfa))
+    (pin "1" (uuid 96c67dfa-2346-4b4d-a4f9-aaa99f3fb0f7))
+    (pin "2" (uuid 8acd4dc6-0d7f-4ddb-b927-3e424e14edfd))
+    (pin "3" (uuid fbc55968-c75c-4936-bdb2-2411f1dd6d82))
+    (pin "5" (uuid e351c537-7020-447c-9dd9-b1bea1df45e8))
+    (pin "6" (uuid 4cfef98a-8b32-4259-93e9-a0e8890eee90))
+    (pin "7" (uuid 3c0bd301-243d-49a6-9097-b374a1643cd3))
+    (pin "10" (uuid ba62b2f1-cfd4-4620-9e82-e6b90b3ce397))
+    (pin "8" (uuid 475b52da-a5f8-4b9a-b55f-9b8eba8b3103))
+    (pin "9" (uuid e17d545a-20b1-4a40-add8-174ad7c0d1be))
+    (pin "12" (uuid cbcbe550-3e9b-453d-88d7-8e47a028cf4b))
+    (pin "13" (uuid 3e868bed-a80b-42df-b834-668769d3ff4e))
+    (pin "14" (uuid e92b9e23-cb02-49e4-84f9-f63e87057d9e))
+    (pin "11" (uuid d8f45eed-a319-4442-a61a-b746b283ac04))
+    (pin "4" (uuid 9854869d-23d3-4673-a56e-c28fd97fe288))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR017") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "#PWR017") (unit 1)
+          (reference "U2") (unit 3)
         )
       )
     )
@@ -5323,14 +4730,77 @@
           (reference "R18") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R18") (unit 1)
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
+          (reference "R54") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "KTHFS:TLV9064") (at 351.79 95.885 0) (unit 3)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6629a6b9-a507-4a62-98f9-2e690343ba05)
+    (property "Reference" "U6" (at 351.79 93.345 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TLV9064" (at 351.79 95.885 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 351.79 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 351.79 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4e307c67-6115-458f-93f5-d07d3eddac8d))
+    (pin "2" (uuid e88d541a-6407-42dc-9483-35c050269252))
+    (pin "3" (uuid 04c24ca2-d9e4-46b0-8f59-1ac4b23a858c))
+    (pin "5" (uuid 3e51b49f-d3d4-498d-b11c-c46de4c6d382))
+    (pin "6" (uuid 30e5ccf2-1e8f-4136-a146-cf18a5b02ed8))
+    (pin "7" (uuid 8effa8e7-2870-49d5-8760-b57a80495d37))
+    (pin "10" (uuid b7990ae4-4f5b-4d6b-b0e8-15ea81b3d891))
+    (pin "8" (uuid 5631f2ed-8f5e-452d-9a06-81ba2c16129e))
+    (pin "9" (uuid c266047d-9b91-4d92-826a-8d2d8ef17718))
+    (pin "12" (uuid 415bbe4b-87ec-4689-93d4-6a16198e6b82))
+    (pin "13" (uuid 9dd27a85-0aab-44c1-b9f2-c5727769496f))
+    (pin "14" (uuid 49055bb9-4285-460d-ace1-2efca33f8f72))
+    (pin "11" (uuid ac8f4d00-d1dc-4a34-910e-a360a1cf4aa2))
+    (pin "4" (uuid c8f809d2-d807-476f-a6a9-2772df8a24a6))
+    (instances
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
+          (reference "U6") (unit 3)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 56.515 186.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 69b83137-c6bc-4378-927f-ae9c47253de2)
+    (property "Reference" "#PWR?" (at 56.515 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 56.642 191.0842 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 56.515 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 56.515 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fdba8f49-dc48-4ce2-8744-785c3877320f))
+    (instances
+      (project "MCU"
+        (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "R54") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -5359,11 +4829,6 @@
           (reference "R7") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R7") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R53") (unit 1)
@@ -5389,16 +4854,11 @@
     )
     (pin "1" (uuid 8d8cc08e-f079-420c-ad08-d8d6d275f204))
     (pin "2" (uuid cd1e56da-aef0-4c76-bade-4ddbb4896116))
-    (pin "3" (uuid 2b6d5d1f-af2f-42bd-a2ae-83b28ec1f6ec))
-    (pin "3" (uuid 2b6d5d1f-af2f-42bd-a2ae-83b28ec1f6ec))
+    (pin "3" (uuid 2b6d5d1f-af2f-42bd-a2ae-83b28ec1f6e9))
+    (pin "3" (uuid 2b6d5d1f-af2f-42bd-a2ae-83b28ec1f6e9))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "D18") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D18") (unit 1)
         )
       )
@@ -5410,43 +4870,39 @@
     )
   )
 
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 38.1 175.895 0) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 70c9b1ca-19e0-4a37-b069-920a84603592)
-    (property "Reference" "U6" (at 36.83 174.625 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+  (symbol (lib_id "KTHFS:TLV9064") (at 223.52 93.98 0) (unit 3)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 704b8751-0d7f-48d0-999d-c9a0bdf557b0)
+    (property "Reference" "U4" (at 223.52 91.44 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LM358" (at 36.83 176.53 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "TLV9064" (at 223.52 93.98 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 38.1 175.895 0)
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 223.52 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 38.1 175.895 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 223.52 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 16a44b2e-e2ae-46ac-9719-df4f0f447982))
-    (pin "2" (uuid 5198fb8e-09a8-4e26-91d1-ee1ce79d7efd))
-    (pin "3" (uuid ea9da903-a6ed-4644-9ce4-e539444f0acf))
-    (pin "5" (uuid 501c9a78-daa6-4167-b826-a83bb699da06))
-    (pin "6" (uuid 6f6ddc69-67cd-4e9c-8eb5-93d4f0bee829))
-    (pin "7" (uuid e5622345-d8a2-4e19-9f05-2fba6b2d4864))
-    (pin "4" (uuid 8ed8fe8e-6759-458a-9fbd-58af465fce45))
-    (pin "8" (uuid 5fc98e79-f649-4908-b490-00eae391dfd3))
+    (pin "1" (uuid 4c3a918a-b88a-43b5-8062-dd3c5fc0a25d))
+    (pin "2" (uuid 6628f932-a982-46a0-8948-11327df56a28))
+    (pin "3" (uuid 50848550-e9e8-450a-a8f0-a49c82912140))
+    (pin "5" (uuid 7bf41147-da85-434b-9860-c25b515e52e7))
+    (pin "6" (uuid ec0fa82e-98fe-4e36-9223-51b5b609b132))
+    (pin "7" (uuid 4cb12dad-a364-4baa-9b75-6fcb56646d36))
+    (pin "10" (uuid d8617546-c710-486c-8efc-30722845027a))
+    (pin "8" (uuid f24bbeca-6e26-4bdd-abfd-38eef8b8a62c))
+    (pin "9" (uuid 6d13944c-d7bf-4223-9f4e-8cb05f2511de))
+    (pin "12" (uuid 25f8d876-0415-4583-94db-013958fe355e))
+    (pin "13" (uuid f5188d98-8c41-46aa-8bed-0fc36fd37854))
+    (pin "14" (uuid aa46e689-6547-499c-8fc1-85cc0e6e7dd7))
+    (pin "11" (uuid 962653f9-987f-42c3-b624-4d606652260e))
+    (pin "4" (uuid 11ea5fb1-2483-432a-9f74-19b1bf5845ad))
     (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U6") (unit 3)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U6") (unit 3)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U3") (unit 3)
+          (reference "U4") (unit 3)
         )
       )
     )
@@ -5475,11 +4931,6 @@
           (reference "C2") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "C2") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C3") (unit 1)
@@ -5505,79 +4956,9 @@
     )
     (pin "1" (uuid 40c50e2a-03f0-4fd8-a3b3-f613a8c29454))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR011") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR011") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 48.26 185.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7474feac-0b3b-479a-8413-9682a8525076)
-    (property "Reference" "#PWR022" (at 48.26 191.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 48.387 189.8142 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 48.26 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 48.26 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fcd3f1d6-5798-45ca-ae70-7dcc88c2cfe0))
-    (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR022") (unit 1)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "#PWR022") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 60.96 166.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 74900ad9-9911-40b5-95b6-0c8c1cc4de8e)
-    (property "Reference" "#PWR0122" (at 60.96 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 60.96 162.56 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 60.96 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 60.96 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 469faf86-a8d2-42fb-b4e6-399fa965dfb0))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0122") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0122") (unit 1)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5606,11 +4987,6 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "C1") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C4") (unit 1)
@@ -5636,11 +5012,6 @@
     )
     (pin "1" (uuid f385a686-bcd6-4dd4-bec7-37db59bd4df7))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR010") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR010") (unit 1)
@@ -5666,22 +5037,55 @@
     )
     (pin "1" (uuid c401d002-4499-48ff-8c1c-f900db39291f))
     (pin "2" (uuid a25d9dd7-5598-46e1-9e21-eaf8a20d1081))
-    (pin "3" (uuid 3b05e270-b5ce-444b-be75-c3517736b88a))
-    (pin "3" (uuid 3b05e270-b5ce-444b-be75-c3517736b88a))
+    (pin "3" (uuid 3b05e270-b5ce-444b-be75-c3517736b887))
+    (pin "3" (uuid 3b05e270-b5ce-444b-be75-c3517736b887))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D23") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "D23") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "D4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "KTHFS:TLV9064") (at 351.79 26.035 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 83018884-a7ff-4d67-b041-d4bc593f18e4)
+    (property "Reference" "U6" (at 351.79 23.495 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TLV9064" (at 351.79 26.035 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 351.79 26.035 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 351.79 26.035 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 91da99ed-c388-4610-842b-0e1b8f565135))
+    (pin "2" (uuid af75b0ac-74f5-4781-87ba-360b1a7fd7d3))
+    (pin "3" (uuid 67252b14-c516-4143-a097-6909ea9db5f0))
+    (pin "5" (uuid 5582af19-4b2a-488c-ba94-ffa1f6e3b364))
+    (pin "6" (uuid 75f630b1-a611-4ce7-babb-335181a3165d))
+    (pin "7" (uuid d8e5de8e-c2b6-4404-8ec5-7122b465e16c))
+    (pin "10" (uuid 13d497ce-c5b8-4d48-83d1-46765ad7b81a))
+    (pin "8" (uuid a8e8ad65-1615-4943-996b-8ad6ee77b043))
+    (pin "9" (uuid b024f03d-6995-4619-882f-d6503a9b51e9))
+    (pin "12" (uuid 7921114a-7ad6-459c-8aeb-79c3df96f0e7))
+    (pin "13" (uuid 7b20f9e7-24a4-4671-88fc-865b65922e20))
+    (pin "14" (uuid ff812a9e-fe6a-44e5-a11e-be7ff74fbd7e))
+    (pin "11" (uuid eb0f585c-7aad-482a-b47e-424a4fa82c10))
+    (pin "4" (uuid c12e5aa6-b252-409b-9d22-2cb6874892fe))
+    (instances
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -5707,11 +5111,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R8") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R8") (unit 1)
         )
       )
@@ -5746,11 +5145,6 @@
           (reference "R2") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R2") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R37") (unit 1)
@@ -5782,56 +5176,9 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R6") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R48") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 351.79 102.87 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 97c8bf77-879f-4c59-b5a3-bf9541cf9bf7)
-    (property "Reference" "U4" (at 351.79 95.25 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM358" (at 351.79 97.155 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 351.79 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 351.79 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 691ccb09-9fce-4690-9874-d56b3d6a2da5))
-    (pin "2" (uuid b12d9632-2f7c-446e-bd2d-199eabd0d37f))
-    (pin "3" (uuid c5d0f52c-6a23-4de1-872f-f9162a85558f))
-    (pin "5" (uuid e2666c15-b19e-4d3e-957c-083804415d89))
-    (pin "6" (uuid 900adf0d-e773-499f-b692-7ae26b47e3c2))
-    (pin "7" (uuid 9c569ae8-b5e8-460d-93ae-2ff310f0b7ca))
-    (pin "4" (uuid 7e9cc2d7-9a2d-4b06-a513-f59f8b33a14e))
-    (pin "8" (uuid 573fbf9f-81d3-4b0e-b8a8-727c85c64429))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U4") (unit 2)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U4") (unit 2)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U11") (unit 1)
         )
       )
     )
@@ -5860,49 +5207,9 @@
           (reference "R15") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R15") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R51") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 72.39 166.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9b56702a-3bc9-46b0-aca2-e91afa821fd0)
-    (property "Reference" "#PWR0116" (at 72.39 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 72.39 162.56 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 72.39 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 72.39 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 99715cc2-5d09-4f2d-b42a-951203fb913e))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0116") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0116") (unit 1)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -5925,11 +5232,6 @@
     )
     (pin "1" (uuid 9ce92a03-9907-49c2-83ea-e2838380a1f7))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR01") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR01") (unit 1)
@@ -5955,14 +5257,39 @@
     )
     (pin "1" (uuid 8e94353b-05f9-4ae5-af33-2b7b6055d5d3))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 41.275 186.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a1205844-3d10-413b-b4d8-5a2da82b6796)
+    (property "Reference" "#PWR?" (at 41.275 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 41.402 191.0842 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 41.275 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 41.275 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b0d6c3dc-466a-4f51-bd26-abec5cc3e069))
+    (instances
+      (project "MCU"
+        (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -5985,56 +5312,9 @@
     )
     (pin "1" (uuid 33999b93-03b8-4c4b-9108-ef95d7f565f0))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR014") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR014") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 351.79 33.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a7ab52a7-1225-4d13-aa6e-5d61f939c590)
-    (property "Reference" "U1" (at 351.79 25.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM358" (at 351.79 27.305 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 351.79 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 351.79 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 19f400b7-714e-4640-8943-1eda2747a285))
-    (pin "2" (uuid 412b9f40-3963-4043-ba60-69cfdb203390))
-    (pin "3" (uuid 4a2eb122-1ea6-448b-88d2-e1dcb5d5d6a2))
-    (pin "5" (uuid bf82e01b-e1a7-4ddb-8bb2-b855666622f2))
-    (pin "6" (uuid 66649a40-c5e3-471c-a675-f7aa6b29fd07))
-    (pin "7" (uuid f237b594-b67c-44d1-bbf9-6497a15540e0))
-    (pin "4" (uuid 5c6f0db3-1f35-466e-921b-b39754a657df))
-    (pin "8" (uuid 8d141fd9-4b9f-40d4-8ae3-3571613ca2a1))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U1") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U1") (unit 1)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U9") (unit 1)
         )
       )
     )
@@ -6057,11 +5337,6 @@
     )
     (pin "1" (uuid 905d01bd-31ed-4020-835a-ee6dd291a1a9))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR015") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR015") (unit 1)
@@ -6087,11 +5362,6 @@
     )
     (pin "1" (uuid b69b9023-73a9-414b-9c37-e657af0c8df2))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR03") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR03") (unit 1)
@@ -6100,85 +5370,137 @@
     )
   )
 
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 351.79 67.945 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b1a1c0c0-2e2f-49fd-bf00-931a37afb4a5)
-    (property "Reference" "U1" (at 351.79 60.325 0)
+  (symbol (lib_id "KTHFS:TLV9064") (at 223.52 24.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b2fb47de-c11f-4dec-9f31-83ac740479b2)
+    (property "Reference" "U4" (at 223.52 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LM358" (at 351.79 62.23 0)
+    (property "Value" "TLV9064" (at 223.52 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 351.79 67.945 0)
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 223.52 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 351.79 67.945 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 223.52 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 576dd73f-8c02-48bf-98b1-3194a6474a91))
-    (pin "2" (uuid 4e3d9de6-3a61-4efa-beef-5961ff001dbe))
-    (pin "3" (uuid 0f1f55ad-a065-462a-bb42-04a27698a282))
-    (pin "5" (uuid f1788d02-218a-49cb-98cc-71b10d90b2d7))
-    (pin "6" (uuid 93dd34ed-6436-4f74-b375-8272d255a866))
-    (pin "7" (uuid 50b4ef3c-0748-4cb4-858c-a3921308935b))
-    (pin "4" (uuid 36dc7e0b-0277-4fb8-8c98-955ef57b40cd))
-    (pin "8" (uuid 1ca37fe6-478e-4718-b4d0-7c07793a3a93))
+    (pin "1" (uuid 0cbd8f17-bfca-422d-b78b-b74fe7ce2979))
+    (pin "2" (uuid b6a2167f-9be3-4887-b263-f67aef696260))
+    (pin "3" (uuid 34da947f-2a45-43c2-aaba-17652c39dfbb))
+    (pin "5" (uuid 388f274d-90e2-4122-9612-f40de37b3d97))
+    (pin "6" (uuid 932e1e3c-8cad-4db8-96da-035c7b7b0724))
+    (pin "7" (uuid cc230106-f3b1-4bb2-9931-5c929c6a8b98))
+    (pin "10" (uuid afd51819-feaa-4fe9-8795-9a33a9e1961b))
+    (pin "8" (uuid 3cf8d35b-60da-4a69-aa0a-6c26b0da9b49))
+    (pin "9" (uuid 5455be71-a89d-402e-afc9-1aee4d9bbfd7))
+    (pin "12" (uuid 3a07dc94-631c-4abb-8930-99193957ef18))
+    (pin "13" (uuid 0768505d-5922-4f93-b47a-3d850759c619))
+    (pin "14" (uuid 8bf9f070-7cb0-4d30-a973-de2d2024b92e))
+    (pin "11" (uuid 35c29dad-eb8b-407b-9d99-02a2d0d179a9))
+    (pin "4" (uuid 516804cb-3405-4ecf-a731-dbe8ffc1b5b2))
     (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U1") (unit 2)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U1") (unit 2)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U9") (unit 2)
+          (reference "U4") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 25.4 175.895 0) (unit 3)
+  (symbol (lib_id "blocks-rescue:+3.3V-power") (at 56.515 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid be267b21-7013-4cc0-b5ff-defa10651f9e)
-    (property "Reference" "U5" (at 24.13 174.625 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "LM358" (at 24.13 176.53 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 25.4 175.895 0)
+    (uuid bb4ab90e-c7b4-484d-9c6a-6941ae561a4a)
+    (property "Reference" "#PWR?" (at 56.515 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 25.4 175.895 0)
+    (property "Value" "+3.3V" (at 56.896 159.4358 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 56.515 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c259cbba-b1a0-4ec8-bf29-a0c9e69f48b6))
-    (pin "2" (uuid 94f6f0f4-baf2-4817-8780-dc2481682ac7))
-    (pin "3" (uuid 0559ad4f-93c3-420d-a70a-b65bb87dcf6d))
-    (pin "5" (uuid 1057613b-a2b7-4cea-8432-42931e0fb96f))
-    (pin "6" (uuid effeb258-8c1f-4f23-ad49-1c5cd45a498e))
-    (pin "7" (uuid 6f1e397b-dcfd-4f56-a5f9-42152bdb04ad))
-    (pin "4" (uuid 88918658-91c4-4c01-a17a-b23cb3345242))
-    (pin "8" (uuid a7dc8016-2390-45ca-911e-ce524a1e6bb2))
+    (property "Datasheet" "" (at 56.515 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4e936688-4e87-4bb5-af86-c2a7988f1dc7))
     (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U5") (unit 3)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U5") (unit 3)
+      (project "MCU"
+        (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U1") (unit 3)
+          (reference "#PWR019") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "blocks-rescue:+3.3V-power") (at 25.4 163.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c1239035-02ed-4cc8-8e06-994064e62631)
+    (property "Reference" "#PWR?" (at 25.4 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 25.781 159.4358 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 25.4 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 25.4 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 47539897-5d3a-4678-a6b1-795672ca334d))
+    (instances
+      (project "MCU"
+        (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
+          (reference "#PWR017") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "KTHFS:TLV9064") (at 102.87 24.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c2e2a12b-ccb5-4c85-a796-96a6aeed3408)
+    (property "Reference" "U2" (at 102.87 21.59 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TLV9064" (at 102.87 24.13 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 102.87 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 102.87 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4ca5eab8-d475-4894-a955-107a04484b50))
+    (pin "2" (uuid 89e51f9b-d580-4fae-8f30-873063a4fbc4))
+    (pin "3" (uuid e46fe842-801e-4d05-9940-7b3f41e6b005))
+    (pin "5" (uuid e7da307f-43d6-44aa-ae0a-33950e5f0769))
+    (pin "6" (uuid 1b32010d-1f7c-43e7-b11f-61330d9667bf))
+    (pin "7" (uuid af5c5ca6-d7c2-4889-b65c-e87f240b407d))
+    (pin "10" (uuid 6a5a28a2-7eec-4161-b3c8-02aa36857ac9))
+    (pin "8" (uuid e6da4e8f-f845-47f2-9eb8-c0547627e940))
+    (pin "9" (uuid 172dfa33-e39b-469c-aa45-7a3c0577bc7d))
+    (pin "12" (uuid d5e460db-14d6-4233-80cf-50055eed60ee))
+    (pin "13" (uuid 4b2af339-3704-4ac6-aa49-baf81ee7d38d))
+    (pin "14" (uuid a098b215-f397-4ec0-9c00-542a5dbbbfa8))
+    (pin "11" (uuid 8b3591d9-4995-429c-86b2-96c7d14687b0))
+    (pin "4" (uuid 3b3b7437-3c3d-41e1-aef2-398f12eac793))
+    (instances
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -6207,11 +5529,6 @@
           (reference "R13") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R13") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R47") (unit 1)
@@ -6220,131 +5537,105 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 48.26 166.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cac46c68-5618-4f31-abfc-b6d373ae8311)
-    (property "Reference" "#PWR0116" (at 48.26 170.18 0)
+  (symbol (lib_id "KTHFS:TLV9064") (at 25.4 167.64 0) (unit 5)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c81e6066-c357-4ef5-a986-a066a79370ce)
+    (property "Reference" "U2" (at 26.67 178.435 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TLV9064" (at 26.67 180.975 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 25.4 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 48.26 162.56 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 25.4 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e86b7af2-c45e-4c53-b52e-1b0e2abae04c))
+    (pin "2" (uuid ec41c339-7589-4051-b27e-6ab8d9f049cd))
+    (pin "3" (uuid b0ee15ec-946c-48f8-bfd3-798efb59bf76))
+    (pin "5" (uuid e9a7e512-3ca9-4678-a1ce-6ae97577072e))
+    (pin "6" (uuid 42bc0bb0-c42e-4edc-be00-f06d2542a6e8))
+    (pin "7" (uuid 6fb13b82-0285-4f23-abe5-5c650e5866fc))
+    (pin "10" (uuid 8fafd81c-f52f-482e-a3cf-211a5f81ac74))
+    (pin "8" (uuid 99d54106-de14-4b03-b795-6905d4abcb75))
+    (pin "9" (uuid 7d395a4d-28ee-4380-8c99-f389d0e19174))
+    (pin "12" (uuid edf91956-77b3-49b3-a0fe-bb7cd8b91a0a))
+    (pin "13" (uuid ea1c47d1-3e4a-4f78-a3f8-c4ae8fd92a35))
+    (pin "14" (uuid d51d401a-9c0a-4896-aea1-eccbdb065404))
+    (pin "11" (uuid e126519e-14d4-4123-89cf-968480e769b6))
+    (pin "4" (uuid d18d1c54-332c-4546-9b62-9dc192d49c44))
+    (instances
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
+          (reference "U2") (unit 5)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 25.4 186.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c9e96be7-b1e1-435d-ba3c-4e6c56eab3c0)
+    (property "Reference" "#PWR?" (at 25.4 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 25.527 191.0842 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 48.26 166.37 0)
+    (property "Footprint" "" (at 25.4 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 48.26 166.37 0)
+    (property "Datasheet" "" (at 25.4 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ff72e36f-13ef-4fd6-be91-7016397c7eed))
+    (pin "1" (uuid 9b2072dc-e75b-47c2-8dd4-86390acb6957))
     (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0116") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0116") (unit 1)
+      (project "MCU"
+        (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 85.09 185.42 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 25.4 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid cc64b268-b7e3-4dbb-a0b4-8b8cb75861cc)
-    (property "Reference" "#PWR0123" (at 85.09 191.77 0)
+    (uuid cd7c8b6b-a50f-4973-906b-82e569805da8)
+    (property "Reference" "C?" (at 28.321 166.4716 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 28.321 168.783 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 26.3652 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 85.217 189.8142 0)
+    (property "Datasheet" "~" (at 25.4 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 85.09 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 85.09 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 63266f97-2db2-4645-be95-ea20e02f3475))
+    (pin "1" (uuid b3df9112-4f58-416f-b20d-d89cca520f39))
+    (pin "2" (uuid f312b3d4-06b0-4c87-89be-3eca0b25bd3a))
     (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0123") (unit 1)
+      (project "MCU"
+        (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "C?") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0123") (unit 1)
+      (project "blocks"
+        (path "/9805bc69-1175-4e73-a53f-b71c343de45b/00000000-0000-0000-0000-00005fa7effd"
+          (reference "C?") (unit 1)
         )
       )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "#PWR028") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 72.39 185.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d48bd81e-b152-4bf8-a71b-c332e75dd652)
-    (property "Reference" "#PWR026" (at 72.39 191.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 72.517 189.8142 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 72.39 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 72.39 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f6b29e8a-8cc7-4020-8152-561bede8b59f))
-    (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR026") (unit 1)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "#PWR026") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 22.86 185.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid db787b7a-96df-4082-9de3-13888ac72ac1)
-    (property "Reference" "#PWR018" (at 22.86 191.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 22.987 189.8142 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 22.86 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 22.86 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f97fe126-7737-4c83-9e7f-1cf82f57addc))
-    (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR018") (unit 1)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "#PWR018") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -6373,56 +5664,9 @@
           (reference "C9") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "C9") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 74.93 175.895 0) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid dbde8f3c-bad3-413d-aef6-19180496f385)
-    (property "Reference" "U4" (at 73.66 174.625 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "LM358" (at 73.66 176.53 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 74.93 175.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 74.93 175.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5e332cfb-e353-402d-866d-c89a0f678e7f))
-    (pin "2" (uuid 8b4f52db-ef68-4f21-9a44-68dc9c921797))
-    (pin "3" (uuid 10cb84a5-35da-482d-9ece-3aeff409fcf5))
-    (pin "5" (uuid 17961b10-489a-4952-a734-6ad8fb9fb9f5))
-    (pin "6" (uuid e989e44d-34be-4727-9be6-703ec054ea6a))
-    (pin "7" (uuid 11d4de0d-3866-4afe-8e5c-59a6f3b3d00f))
-    (pin "4" (uuid 3b86a33e-7059-42d9-96aa-a61f8d53cff4))
-    (pin "8" (uuid ab1cfc40-05e5-434c-b872-f79f21db3f03))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U4") (unit 3)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U4") (unit 3)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U9") (unit 3)
         )
       )
     )
@@ -6451,11 +5695,6 @@
           (reference "R14") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R14") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R46") (unit 1)
@@ -6464,36 +5703,77 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 60.96 185.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e68efc58-a4e6-4ac9-967d-399ff0a7921d)
-    (property "Reference" "#PWR0123" (at 60.96 191.77 0)
+  (symbol (lib_id "KTHFS:TLV9064") (at 223.52 59.055 0) (unit 2)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e561cc5d-9b55-410c-8ed2-4ea4c5ceadcb)
+    (property "Reference" "U4" (at 223.52 56.515 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TLV9064" (at 223.52 59.055 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 223.52 59.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 61.087 189.8142 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 223.52 59.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 60.96 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 60.96 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7fe23895-5c43-4018-8991-8c40c75d8f31))
+    (pin "1" (uuid d934bdb9-2e3a-4de8-b1dd-28af4c9834d4))
+    (pin "2" (uuid 78c900b9-f4fc-49bb-9c8c-a5d90ef939dc))
+    (pin "3" (uuid 5ff896bc-d0df-47f0-ada4-b59f9252133d))
+    (pin "5" (uuid a361e6a4-bb9f-4bc0-887b-1f7a3aff61e2))
+    (pin "6" (uuid b0ff7815-b09f-4a30-b4ec-6b97f239893c))
+    (pin "7" (uuid 73b514b9-45d3-4b1e-82ae-4d0c58a3810f))
+    (pin "10" (uuid c5444d1b-1909-499d-93cf-a43b1390a288))
+    (pin "8" (uuid c9218f6f-d527-42c4-941a-a4199afc21b9))
+    (pin "9" (uuid 3987a398-7441-456b-9399-bc9562a3f30d))
+    (pin "12" (uuid b6e2b072-116f-4205-aea4-121fb2f68042))
+    (pin "13" (uuid ba60a804-272f-4793-bf5a-52e919062694))
+    (pin "14" (uuid 56757933-d9de-4173-98e9-e1906dd4f098))
+    (pin "11" (uuid a0247a8a-6aea-4bc1-ab97-bb1f3368bc32))
+    (pin "4" (uuid 180633fa-2df2-4c2b-8532-a120fde634d7))
     (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0123") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0123") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "#PWR024") (unit 1)
+          (reference "U4") (unit 2)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "KTHFS:TLV9064") (at 56.515 167.64 0) (unit 5)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e8ee2e65-5133-45d1-9615-07d2954ae02f)
+    (property "Reference" "U6" (at 57.785 178.435 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TLV9064" (at 57.785 180.975 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 56.515 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519" (at 56.515 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 878f6c31-e194-4e9b-995a-0df2360b1ce8))
+    (pin "2" (uuid 3f247d40-e588-4d07-8468-c3599fb7b834))
+    (pin "3" (uuid f1f16f7c-e4c6-4669-9082-f1d9bdaf6ea2))
+    (pin "5" (uuid bb40e25e-3576-4ac2-9136-a28a31bc75a7))
+    (pin "6" (uuid f4041039-9d61-4e6c-9bdc-c7fe4c0ab6aa))
+    (pin "7" (uuid 2e39041f-c4df-4af3-8683-7d1cf616f65e))
+    (pin "10" (uuid 32584a68-c36f-4125-8347-99843d89be3a))
+    (pin "8" (uuid 2e09aeba-89c2-4661-b9c3-9fd96caf4ce2))
+    (pin "9" (uuid 6d14d75c-49c4-4bce-a5a7-9ee2e9d7c735))
+    (pin "12" (uuid 2f02a1fd-863b-4846-a5eb-15ae42a79178))
+    (pin "13" (uuid 518d4e10-1027-45f5-b134-80218c347d56))
+    (pin "14" (uuid 1caefc37-e062-43d5-b234-3f3c9e7ece86))
+    (pin "11" (uuid b8f4fbb3-ec1e-48fd-9aa6-f6752cc9b6fa))
+    (pin "4" (uuid f798f5f2-0112-4b0b-a90a-4df1492fece3))
+    (instances
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
+          (reference "U6") (unit 5)
         )
       )
     )
@@ -6522,11 +5802,6 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "C10") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "C5") (unit 1)
@@ -6552,14 +5827,45 @@
     )
     (pin "1" (uuid 25945d7a-baa3-4cc4-adb9-df6a90e434c9))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
+      (project "SIGNAL_CONDITIONING_VMU"
+        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 41.275 167.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ecae4eaa-a146-4dee-8cb3-4905f9ca5c84)
+    (property "Reference" "C?" (at 44.196 166.4716 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 44.196 168.783 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 42.2402 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 41.275 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 03db4d50-985f-45b0-ad44-369798644e26))
+    (pin "2" (uuid bb5fcb79-f8b1-4088-a12b-0893a6cb9e47))
+    (instances
+      (project "MCU"
+        (path "/77f6d988-24b3-4fd1-9750-e9cc64dc5888"
+          (reference "C?") (unit 1)
+        )
+      )
+      (project "blocks"
+        (path "/9805bc69-1175-4e73-a53f-b71c343de45b/00000000-0000-0000-0000-00005fa7effd"
+          (reference "C?") (unit 1)
         )
       )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "#PWR09") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -6588,91 +5894,9 @@
           (reference "R11") (unit 1)
         )
       )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R11") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "R40") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 63.5 175.895 0) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ef1e3be2-3852-496e-a3de-e354cbfc97af)
-    (property "Reference" "U1" (at 62.23 174.625 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "LM358" (at 62.23 176.53 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 63.5 175.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 63.5 175.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 68eb4a2d-4c6b-4be7-8f91-400bf97491cf))
-    (pin "2" (uuid cde04bc2-fee4-469f-a1e2-eb62cac7bd6d))
-    (pin "3" (uuid 402a8896-d942-4404-b1fa-b412787d72b7))
-    (pin "5" (uuid 9914df62-605c-43d3-8673-b9e5ca3f5183))
-    (pin "6" (uuid 5dba2f63-4742-4252-afa0-91c970adfd92))
-    (pin "7" (uuid fc02b80a-296a-47b2-b116-45f098c36009))
-    (pin "4" (uuid e9078ce9-b186-4374-a4f5-83c8a72eddb0))
-    (pin "8" (uuid abd5bc90-deac-4e51-822d-946d4112ca04))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U1") (unit 3)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U1") (unit 3)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U7") (unit 3)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 85.09 166.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f0acd6e7-5a91-489b-8a25-21aa3497ae45)
-    (property "Reference" "#PWR0122" (at 85.09 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 85.09 162.56 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 85.09 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 85.09 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1c17aed0-e22f-463a-825a-3e9c810e65a5))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0122") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR0122") (unit 1)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -6695,11 +5919,6 @@
     )
     (pin "1" (uuid d8c4cdb1-cc7b-4d5c-b0c3-7a67f05e233a))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR08") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR08") (unit 1)
@@ -6725,64 +5944,17 @@
     )
     (pin "1" (uuid 4c2a846b-c8c5-4fd5-8566-6c391b8322f2))
     (pin "2" (uuid 6eb5ba3b-ac1e-46ed-86e1-6e44de64301b))
-    (pin "3" (uuid 2fd8cdf3-fb47-494e-b58b-bd61df2f4789))
-    (pin "3" (uuid 2fd8cdf3-fb47-494e-b58b-bd61df2f4789))
+    (pin "3" (uuid 2fd8cdf3-fb47-494e-b58b-bd61df2f4786))
+    (pin "3" (uuid 2fd8cdf3-fb47-494e-b58b-bd61df2f4786))
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "D17") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "D17") (unit 1)
         )
       )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "D2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 351.79 137.795 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fcc82afd-5271-4af3-a986-bfc409aa85d6)
-    (property "Reference" "U4" (at 351.79 130.175 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM358" (at 351.79 132.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 351.79 137.795 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 351.79 137.795 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d200f5d4-47f2-4f9f-97d7-075421a2a368))
-    (pin "2" (uuid 00c88e7e-86c8-462f-b377-2237ca78fb40))
-    (pin "3" (uuid 516ec3ee-45d1-4d27-be22-42f11e9fb64b))
-    (pin "5" (uuid 1838fbb2-c931-4bb7-80cc-776765a11967))
-    (pin "6" (uuid fc474a12-a1d1-4c91-806d-9289a89e744d))
-    (pin "7" (uuid 6aded3b9-6100-499e-afe7-40627950a533))
-    (pin "4" (uuid 39ac5404-b280-4d56-8cc8-8a09a44f4d64))
-    (pin "8" (uuid 313abdc8-ffcb-45ab-a95f-a3cd261f6542))
-    (instances
-      (project "DCU"
-        (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U4") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "U4") (unit 1)
-        )
-      )
-      (project "SIGNAL_CONDITIONING_VMU"
-        (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
-          (reference "U3") (unit 2)
         )
       )
     )
@@ -6805,11 +5977,6 @@
     )
     (pin "1" (uuid 55a7357d-6ccb-496a-9ae1-0f7fa0f33315))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR05") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR05") (unit 1)
@@ -6835,11 +6002,6 @@
     )
     (pin "1" (uuid ded5515f-15ef-44b6-8d18-4898c1b9e8ff))
     (instances
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "#PWR02") (unit 1)
-        )
-      )
       (project "SIGNAL_CONDITIONING_VMU"
         (path "/e826a4a7-127b-48fe-ae6e-45f363656a3e"
           (reference "#PWR02") (unit 1)
@@ -6868,11 +6030,6 @@
     (instances
       (project "DCU"
         (path "/360cdfaf-1c52-4748-b6f0-4c82f517632f/00000000-0000-0000-0000-00005eb3d36c"
-          (reference "R1") (unit 1)
-        )
-      )
-      (project "VMU"
-        (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005eb3d36c"
           (reference "R1") (unit 1)
         )
       )
