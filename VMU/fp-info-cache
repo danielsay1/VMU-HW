@@ -1,4 +1,4 @@
-21710105656625882
+21819869082462008
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59584,6 +59584,34 @@ solder jumper open
 5
 3
 KTHFS
+ACS772ECB200BPFFT
+PFF_2021
+Integrated Circuit
+0
+37
+37
+KTHFS
+ACS772ECB200BPFFT_thick
+PFF_2021
+Integrated Circuit
+0
+17
+5
+KTHFS
+AMPSEAL_35pos_right_angle
+
+
+0
+35
+35
+KTHFS
+Air LEV100H5CNG03
+
+
+0
+2
+2
+KTHFS
 Arduino_Uno_Shield
 https://store.arduino.cc/arduino-uno-rev3
 
@@ -59592,6 +59620,13 @@ https://store.arduino.cc/arduino-uno-rev3
 37
 KTHFS
 Atmel_ICP_connector
+
+
+0
+10
+10
+KTHFS
+Atmel_ICP_connector(Eurocircuits)
 
 
 0
@@ -59633,47 +59668,19 @@ Grid-EYE
 14
 14
 KTHFS
-HEN.0F.303
-LEMO CONNECTOR
-LEMO CONNECTOR
-0
-7
-7
-KTHFS
-HEN.1F.308
-LEMO CONNECTOR
-LEMO CONNECTOR
-0
-12
-12
-KTHFS
-HEN.2F.312
-LEMO CONNECTOR
-LEMO CONNECTOR
-0
-16
-16
-KTHFS
-HEN.2F.319
-LEMO CONNECTOR
-LEMO CONNECTOR
-0
-23
-23
-KTHFS
-HEW.4F.340.XLNP
-
-
-0
-40
-40
-KTHFS
 HEW.4F_socket
 Through hole angled pin header, 2x20, 2.00mm pitch, 4.2mm pin length, double rows
 Through hole angled pin header THT 2x20 2.00mm double row
 0
 40
 40
+KTHFS
+KT241A40LTHT
+KT24-1A-40L-THT-3
+Relay or Contactor
+0
+4
+4
 KTHFS
 KTxx-1A-40L
 
@@ -59688,6 +59695,76 @@ LEMO-1F.305_elbow
 0
 5
 5
+KTHFS
+LEMO-HEN.0F.303
+LEMO CONNECTOR
+LEMO CONNECTOR
+0
+7
+7
+KTHFS
+LEMO-HEN.0F.304.XLNP
+LEMO CONNECTOR
+LEMO CONNECTOR
+0
+8
+8
+KTHFS
+LEMO-HEN.0F.305.XLNP
+LEMO CONNECTOR
+LEMO CONNECTOR
+0
+9
+9
+KTHFS
+LEMO-HEN.1F.303.XLNP
+LEMO CONNECTOR
+LEMO CONNECTOR
+0
+7
+7
+KTHFS
+LEMO-HEN.1F.305.XLNP
+LEMO CONNECTOR
+LEMO CONNECTOR
+0
+9
+9
+KTHFS
+LEMO-HEN.1F.307.XLNP
+LEMO CONNECTOR
+LEMO CONNECTOR
+0
+11
+11
+KTHFS
+LEMO-HEN.1F.308.XNLP
+LEMO CONNECTOR
+LEMO CONNECTOR
+0
+12
+12
+KTHFS
+LEMO-HEN.2F.312
+LEMO CONNECTOR
+LEMO CONNECTOR
+0
+16
+16
+KTHFS
+LEMO-HEN.2F.319
+LEMO CONNECTOR
+LEMO CONNECTOR
+0
+23
+23
+KTHFS
+LEMO-HEW.4F.340.XLNP
+
+
+0
+40
+40
 KTHFS
 LNK3202D
 SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -59717,6 +59794,20 @@ NCAB
 0
 0
 KTHFS
+Phoenix-M8_3pin_vertical
+
+
+0
+5
+4
+KTHFS
+Phoenix-M8_4pin_vertical
+
+
+0
+6
+5
+KTHFS
 Potentiometer_Bourns_TC33X_Vertical
 Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf
 Potentiometer Bourns TC33X Vertical
@@ -59745,12 +59836,138 @@ RFM95PW
 18
 17
 KTHFS
+RedCube_7461103
+7461103-1
+Connector
+0
+8
+1
+KTHFS
+Relay_2CO_DPDT_Finder_50.12
+Relay DPDT Finder 40.52, Pitch 5mm/7.5mm, https://www.finder-relais.net/de/finder-relais-serie-40.pdf
+Relay DPDT Finder 40.52 Pitch 5mm
+0
+8
+8
+KTHFS
+SIEMENS_3NE8721-1
+
+
+0
+2
+2
+KTHFS
+SOIC16-ISO6742DWR
+SOIC-16 With 12 Pin Placed - Wide, 7.50 mm Body [SOIC] (https://docs.broadcom.com/docs/AV02-0169EN)
+SOIC 1.27 16 12 Wide
+0
+16
+16
+KTHFS
+SOP-4_4.4x2.6mm_P1.27mm
+SOP, 4 Pin (http://www.vishay.com/docs/83510/tcmt1100.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+4
+4
+KTHFS
+SOP50P310X90-8N
+8-LEAD SOIC[DCU]
+Integrated Circuit
+0
+8
+8
+KTHFS
+SOP65P490X110-9N
+
+
+0
+9
+9
+KTHFS
+SOP65P640X120-16N
+PW0016A
+Integrated Circuit
+0
+16
+16
+KTHFS
+SOT-23-5v2
+
+
+0
+5
+5
+KTHFS
+SOT65P210X110-6N
+DCK (R-PDSO-G6)
+Integrated Circuit
+0
+6
+6
+KTHFS
 T9AS1D12-24
 
 
 0
 4
 4
+KTHFS
+TBL00925414GY2GY
+TBL009-254-14GY-2GY-1
+Connector
+0
+28
+28
+KTHFS
+TE_1-776231-4
+
+
+0
+35
+35
+KTHFS
+TE_2-6447232-3
+
+
+0
+34
+34
+KTHFS
+TE_776276-2
+
+
+0
+8
+8
+KTHFS
+TE_6437288-3
+
+
+0
+60
+60
+KTHFS
+TE_6473418-1
+
+
+0
+26
+26
+KTHFS
+TO1016P521X1575X2451-2P
+MPT100
+Resistor
+0
+2
+2
+KTHFS
+TPS92611QDGNRQ1
+
+
+0
+9
+9
 KTHFS
 TestHook_0805
 
@@ -59773,6 +59990,13 @@ WE-SL2 SMT
 4
 4
 KTHFS
+WR-MJ_615008140621
+<B>WR-MJ</B><BR> Modular Jack Horizontal Shielded w. EMI Panel Finger 8P8C Tab Up
+
+0
+10
+10
+KTHFS
 WR-TBL_2.5mm_02
 <b>WR-TBL Serie 382 - 2.50 mm Horizontal PCB Header<br></b>Max Height = 8.1mm , Pitch 2.5mm , 2pins
 
@@ -59786,6 +60010,27 @@ WR-TBL_2.5mm_12
 0
 12
 12
+KTHFS
+WR-WTB_2.54_male_vert_3
+
+
+0
+0
+0
+KTHFS
+WURTH-74941300
+
+
+0
+6
+6
+KTHFS
+WVT247101E
+WV-T247-101E-1
+Undefined or Miscellaneous
+0
+2
+2
 KTHFS
 WirePad_2mm-5mm
 
@@ -59823,6 +60068,13 @@ Wurth-FDSM
 3
 KTHFS
 Wurth-FISM
+
+
+0
+4
+4
+KTHFS
+Wurth-FISM_1779405x41
 
 
 0
@@ -59899,6 +60151,20 @@ Wurth-MM_female_16
 16
 16
 KTHFS
+Wurth-MM_female_24
+
+
+0
+26
+26
+KTHFS
+Wurth-MM_female_26
+
+
+0
+26
+26
+KTHFS
 Wurth-MM_male_4
 
 
@@ -59906,33 +60172,159 @@ Wurth-MM_male_4
 4
 4
 KTHFS
-Wurth-MPC3_angle_2
+Wurth-MPC3_01x02_angle
 
 
 0
 2
 2
 KTHFS
-Wurth-MPC3_angle_4
+Wurth-MPC3_01x02_vert
+
+
+0
+2
+2
+KTHFS
+Wurth-MPC3_01x03_angle
+
+
+0
+3
+3
+KTHFS
+Wurth-MPC3_01x03_vert
+
+
+0
+3
+3
+KTHFS
+Wurth-MPC3_01x04_angle
 
 
 0
 4
 4
 KTHFS
-Wurth-MPC3_angle_10
+Wurth-MPC3_01x04_vert
 
 
 0
 4
 4
 KTHFS
-Wurth-MPC3_vert_6
+Wurth-MPC3_01x06_angle
 
 
 0
 6
 6
+KTHFS
+Wurth-MPC3_01x06_vert
+
+
+0
+6
+6
+KTHFS
+Wurth-MPC3_01x08_angle
+
+
+0
+8
+8
+KTHFS
+Wurth-MPC3_01x08_vert
+
+
+0
+8
+8
+KTHFS
+Wurth-MPC3_01x10_angle
+
+
+0
+10
+10
+KTHFS
+Wurth-MPC3_01x10_vert
+
+
+0
+10
+10
+KTHFS
+Wurth-MPC3_02x02_angle
+
+
+0
+4
+4
+KTHFS
+Wurth-MPC3_02x02_vert
+
+
+0
+4
+4
+KTHFS
+Wurth-MPC3_02x03_angle
+
+
+0
+6
+6
+KTHFS
+Wurth-MPC3_02x04_angle
+
+
+0
+8
+8
+KTHFS
+Wurth-MPC3_02x04_vert
+66200821122-1
+Connector
+0
+8
+8
+KTHFS
+Wurth-MPC3_02x05_angle
+
+
+0
+10
+10
+KTHFS
+Wurth-MPC3_02x06_angle
+
+
+0
+12
+12
+KTHFS
+Wurth-MPC3_02x06_vert
+WR-MPC3-3.00mm Male Dual Row Vertical Header,12 pins
+
+0
+12
+12
+KTHFS
+Wurth-MPC3_02x08_vert
+66201621122-2
+Connector
+0
+16
+16
+KTHFS
+Wurth-MPC3_02x12_angle
+
+
+0
+24
+24
 KTHFS
 Wurth-MPC4_male_angle_2
 
@@ -60018,6 +60410,13 @@ WR-WTB 2.54mm Right Angled Locking Header Top Locking, 2 Pins
 2
 2
 KTHFS
+Wurth-WBT_2.54_male_angle_3
+WR-WTB 2.54mm Right Angled Locking Header Top Locking, 3 Pins
+
+0
+3
+3
+KTHFS
 Wurth-WBT_2.54_male_angle_6
 WR-WTB Wire-to-Board Connectors 2.54 mm Male Right Angled Bottom Locking Header, 6 pins;
 
@@ -60060,6 +60459,13 @@ Wurth-WTB_2.54_male_vert_4
 4
 4
 KTHFS
+Wurth-WTB_2.54_male_vert_5
+WR-WTB 2.54mm Male Locking Header, 5 Pins
+
+0
+5
+5
+KTHFS
 Wurth-WTB_2.54_male_vert_6
 
 
@@ -60067,7 +60473,42 @@ Wurth-WTB_2.54_male_vert_6
 6
 6
 KTHFS
+Wurth-WTB_2.54_male_vert_7
+WR-WTB 2.54mm Male Locking Header, 7 Pins
+
+0
+7
+7
+KTHFS
 breadboard
+
+
+0
+0
+0
+KTHFS
+dev17_logo_20mm
+
+
+0
+0
+0
+KTHFS
+dev17_logo_30mm
+
+
+0
+0
+0
+KTHFS
+dev17_logo_40mm
+
+
+0
+0
+0
+KTHFS
+dev17_logo_50mm
 
 
 0
@@ -60143,6 +60584,13 @@ marcus_dahlin
 0
 0
 0
+KTHFS
+redcube_7461098
+7461098-2
+Connector
+0
+25
+1
 KTHFS
 rickroll
 
