@@ -1511,7 +1511,7 @@
   (symbol (lib_id "power:GND") (at 123.19 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005de931f9)
-    (property "Reference" "#PWR022" (at 123.19 67.31 0)
+    (property "Reference" "#PWR040" (at 123.19 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.317 65.3542 0)
@@ -1527,7 +1527,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -1536,7 +1536,7 @@
   (symbol (lib_id "power:GND") (at 106.68 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005de935c5)
-    (property "Reference" "#PWR021" (at 106.68 67.31 0)
+    (property "Reference" "#PWR039" (at 106.68 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.807 65.3542 0)
@@ -1552,7 +1552,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -1561,7 +1561,7 @@
   (symbol (lib_id "power:GND") (at 95.25 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005de93ed3)
-    (property "Reference" "#PWR020" (at 95.25 67.31 0)
+    (property "Reference" "#PWR038" (at 95.25 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.377 65.3542 0)
@@ -1577,7 +1577,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -1648,7 +1648,7 @@
   (symbol (lib_id "power:+24V") (at 106.68 43.815 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005de9891f)
-    (property "Reference" "#PWR016" (at 106.68 47.625 0)
+    (property "Reference" "#PWR034" (at 106.68 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 107.061 39.4208 0)
@@ -1664,7 +1664,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -1673,7 +1673,7 @@
   (symbol (lib_id "power:+5V") (at 175.895 43.815 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005de99120)
-    (property "Reference" "#PWR017" (at 175.895 47.625 0)
+    (property "Reference" "#PWR035" (at 175.895 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 176.276 39.4208 0)
@@ -1689,7 +1689,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -1729,7 +1729,7 @@
   (symbol (lib_id "power:GND") (at 146.05 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005de9a361)
-    (property "Reference" "#PWR023" (at 146.05 67.31 0)
+    (property "Reference" "#PWR041" (at 146.05 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.177 65.3542 0)
@@ -1745,7 +1745,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -1754,7 +1754,7 @@
   (symbol (lib_id "power:GND") (at 165.735 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005de9a7de)
-    (property "Reference" "#PWR024" (at 165.735 67.31 0)
+    (property "Reference" "#PWR042" (at 165.735 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.862 65.3542 0)
@@ -1770,7 +1770,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -1779,7 +1779,7 @@
   (symbol (lib_id "power:GND") (at 175.895 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005de9ac7b)
-    (property "Reference" "#PWR025" (at 175.895 67.31 0)
+    (property "Reference" "#PWR043" (at 175.895 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.022 65.3542 0)
@@ -1795,7 +1795,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -1825,7 +1825,7 @@
       )
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -1896,7 +1896,7 @@
   (symbol (lib_id "power:GND") (at 156.21 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dea756f)
-    (property "Reference" "#PWR029" (at 156.21 77.47 0)
+    (property "Reference" "#PWR047" (at 156.21 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.337 75.5142 0)
@@ -1912,7 +1912,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -1955,7 +1955,7 @@
   (symbol (lib_id "power:+5V") (at 193.675 50.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005deaef2d)
-    (property "Reference" "#PWR018" (at 193.675 53.975 0)
+    (property "Reference" "#PWR036" (at 193.675 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 194.056 45.7708 0)
@@ -1971,7 +1971,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -2011,7 +2011,7 @@
   (symbol (lib_id "power:GND") (at 213.995 65.405 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005deafb22)
-    (property "Reference" "#PWR026" (at 213.995 71.755 0)
+    (property "Reference" "#PWR044" (at 213.995 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 214.122 69.7992 0)
@@ -2027,7 +2027,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -2036,7 +2036,7 @@
   (symbol (lib_id "power:GND") (at 236.22 65.405 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005deb1f96)
-    (property "Reference" "#PWR028" (at 236.22 71.755 0)
+    (property "Reference" "#PWR046" (at 236.22 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.347 69.7992 0)
@@ -2052,7 +2052,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -2092,7 +2092,7 @@
   (symbol (lib_id "power:GND") (at 227.965 65.405 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005deb42a4)
-    (property "Reference" "#PWR027" (at 227.965 71.755 0)
+    (property "Reference" "#PWR045" (at 227.965 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.092 69.7992 0)
@@ -2108,7 +2108,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -2138,7 +2138,7 @@
       )
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -2147,7 +2147,7 @@
   (symbol (lib_id "Device:Fuse") (at 62.23 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d972d31-fbf5-4492-ab3f-ec7835f20116)
-    (property "Reference" "F2" (at 64.389 118.745 0)
+    (property "Reference" "F4" (at 64.389 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fuse" (at 64.389 121.285 0)
@@ -2164,7 +2164,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "F2") (unit 1)
+          (reference "F4") (unit 1)
         )
       )
     )
@@ -2194,7 +2194,7 @@
           (reference "JP1") (unit 1)
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "JP3") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
     )
@@ -2203,7 +2203,7 @@
   (symbol (lib_id "Device:Fuse") (at 221.615 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 479996f1-8184-4bec-8ccb-d037aef334c6)
-    (property "Reference" "F4" (at 223.774 113.03 0)
+    (property "Reference" "F2" (at 223.774 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fuse" (at 223.774 115.57 0)
@@ -2220,7 +2220,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "F4") (unit 1)
+          (reference "F2") (unit 1)
         )
       )
     )
@@ -2250,7 +2250,7 @@
           (reference "JP1") (unit 1)
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "JP2") (unit 1)
+          (reference "JP3") (unit 1)
         )
       )
     )
@@ -2259,7 +2259,7 @@
   (symbol (lib_id "power:+3.3V") (at 236.22 50.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5192f7a9-3570-433d-8880-f9d0479528ca)
-    (property "Reference" "#PWR057" (at 236.22 53.975 0)
+    (property "Reference" "#PWR037" (at 236.22 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 236.22 46.99 0)
@@ -2275,7 +2275,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -2284,7 +2284,7 @@
   (symbol (lib_id "Device:Fuse") (at 196.215 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57818ec8-f3cc-452c-8152-b9be8bb095a5)
-    (property "Reference" "F5" (at 198.374 114.935 0)
+    (property "Reference" "F3" (at 198.374 114.935 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fuse" (at 198.374 117.475 0)
@@ -2301,7 +2301,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "F5") (unit 1)
+          (reference "F3") (unit 1)
         )
       )
     )
@@ -2366,7 +2366,7 @@
   (symbol (lib_id "power:+24V") (at 144.145 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b72abdf-3ab3-4595-8cf5-dbacda4475d5)
-    (property "Reference" "#PWR031" (at 144.145 118.11 0)
+    (property "Reference" "#PWR050" (at 144.145 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 144.526 109.9058 0)
@@ -2382,7 +2382,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
           (reference "#PWR028") (unit 1)
@@ -2394,7 +2394,7 @@
   (symbol (lib_id "power:+5V") (at 62.23 114.935 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89555822-d7af-433c-a775-c8c77e88f227)
-    (property "Reference" "#PWR030" (at 62.23 118.745 0)
+    (property "Reference" "#PWR051" (at 62.23 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 62.23 111.125 0)
@@ -2410,7 +2410,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
           (reference "#PWR?") (unit 1)
@@ -2457,7 +2457,7 @@
   (symbol (lib_id "Device:Fuse") (at 144.145 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be383ce2-8510-4bde-b9ce-24476390cce8)
-    (property "Reference" "F3" (at 146.304 119.38 0)
+    (property "Reference" "F5" (at 146.304 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fuse" (at 146.304 121.92 0)
@@ -2474,7 +2474,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "F3") (unit 1)
+          (reference "F5") (unit 1)
         )
       )
     )
@@ -2504,7 +2504,7 @@
       )
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -2513,7 +2513,7 @@
   (symbol (lib_id "power:+5V") (at 196.215 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4d4aa56-4ee2-4a6e-9257-5bc641c2d63b)
-    (property "Reference" "#PWR033" (at 196.215 113.03 0)
+    (property "Reference" "#PWR049" (at 196.215 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 196.215 105.41 0)
@@ -2529,7 +2529,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
           (reference "#PWR?") (unit 1)
@@ -2546,7 +2546,7 @@
   (symbol (lib_id "power:+5V") (at 221.615 107.315 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e6569ac6-d332-4cac-b2d2-578a951fe1e4)
-    (property "Reference" "#PWR032" (at 221.615 111.125 0)
+    (property "Reference" "#PWR048" (at 221.615 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 221.615 103.505 0)
@@ -2562,7 +2562,7 @@
     (instances
       (project "VMU"
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c/00000000-0000-0000-0000-00005ef29697"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
         (path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
           (reference "#PWR?") (unit 1)
