@@ -1770,16 +1770,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 76.835) (xy 180.34 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10f86f2d-62d5-4eea-9112-3392acbbbcd8")
-	)
-	(wire
-		(pts
 			(xy 43.18 213.995) (xy 73.025 213.995)
 		)
 		(stroke
@@ -1837,26 +1827,6 @@
 			(type default)
 		)
 		(uuid "29061a8a-71f1-41ae-a2e1-f02b4e0ba413")
-	)
-	(wire
-		(pts
-			(xy 155.575 153.035) (xy 161.925 153.035)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2917ce82-fb04-4fce-9753-8d6e18af17f2")
-	)
-	(wire
-		(pts
-			(xy 155.575 135.89) (xy 161.925 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a6d2c21-29d1-4781-bd0a-526b41477318")
 	)
 	(wire
 		(pts
@@ -1930,16 +1900,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.765 147.32) (xy 151.765 158.115)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35f81d3b-e015-42e5-988b-0c3c3c072f89")
-	)
-	(wire
-		(pts
 			(xy 279.4 265.43) (xy 279.4 266.065)
 		)
 		(stroke
@@ -1947,16 +1907,6 @@
 			(type default)
 		)
 		(uuid "3690f122-d894-46c4-99e6-83a43f6f0d75")
-	)
-	(wire
-		(pts
-			(xy 155.575 145.415) (xy 180.34 145.415)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b2406a8-85df-47ae-b276-9f6e0e437016")
 	)
 	(wire
 		(pts
@@ -2070,16 +2020,6 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 127.635) (xy 180.34 127.635)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a89aa48-dc59-467e-b086-a046f8f2ad78")
-	)
-	(wire
-		(pts
 			(xy 148.59 149.86) (xy 148.59 174.625)
 		)
 		(stroke
@@ -2130,26 +2070,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 187.325) (xy 161.925 187.325)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57f49f6b-c5d4-4807-b543-966ac5cced64")
-	)
-	(wire
-		(pts
-			(xy 144.145 137.16) (xy 137.795 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b03c58f-f80c-479d-83db-4b0f75321fbd")
-	)
-	(wire
-		(pts
 			(xy 86.995 95.885) (xy 112.395 95.885)
 		)
 		(stroke
@@ -2187,16 +2107,6 @@
 			(type default)
 		)
 		(uuid "605c24cd-0027-4dcd-9a41-736b27249544")
-	)
-	(wire
-		(pts
-			(xy 151.765 158.115) (xy 161.925 158.115)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "624bd574-0e26-4014-b784-d6ea7c62cacb")
 	)
 	(wire
 		(pts
@@ -2257,16 +2167,6 @@
 			(type default)
 		)
 		(uuid "667a4ee3-cc92-477e-9416-6daa5ee5ec09")
-	)
-	(wire
-		(pts
-			(xy 154.94 76.835) (xy 180.34 76.835)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6839bd17-69a7-4ab0-9519-9a9f3bc3fa22")
 	)
 	(wire
 		(pts
@@ -2400,16 +2300,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 179.705) (xy 181.61 179.705)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f2cba15-43cd-4a6c-8971-d8caa35e0357")
-	)
-	(wire
-		(pts
 			(xy 85.09 147.32) (xy 64.77 147.32)
 		)
 		(stroke
@@ -2477,16 +2367,6 @@
 			(type default)
 		)
 		(uuid "881f3985-4030-4441-a9a4-46bf87f9dbbe")
-	)
-	(wire
-		(pts
-			(xy 155.575 145.415) (xy 155.575 153.035)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c545392-94b6-4fa5-a906-011454cd509f")
 	)
 	(wire
 		(pts
@@ -2610,26 +2490,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 106.68) (xy 161.925 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a00bdcae-5d04-4fd9-9d40-826eb81f7fd7")
-	)
-	(wire
-		(pts
-			(xy 155.575 127.635) (xy 155.575 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a29a330c-1044-4d37-82d5-fe566db5ee14")
-	)
-	(wire
-		(pts
 			(xy 32.385 90.805) (xy 64.135 90.805)
 		)
 		(stroke
@@ -2650,16 +2510,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.145 90.17) (xy 161.29 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a754a2b7-04d9-452b-86b3-afd6e6bf6c7f")
-	)
-	(wire
-		(pts
 			(xy 146.05 152.4) (xy 137.795 152.4)
 		)
 		(stroke
@@ -2667,26 +2517,6 @@
 			(type default)
 		)
 		(uuid "a808053b-50c5-4d29-a5bc-8fceff71e311")
-	)
-	(wire
-		(pts
-			(xy 156.21 169.545) (xy 161.925 169.545)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a98710be-0914-44cc-943d-64de25a93718")
-	)
-	(wire
-		(pts
-			(xy 156.21 161.925) (xy 156.21 169.545)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad80d22b-cd29-4a3d-b91f-cf4a2c4869bc")
 	)
 	(wire
 		(pts
@@ -2730,16 +2560,6 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 93.345) (xy 155.575 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5f13c05-2c3a-44df-ad45-8a280fb649d0")
-	)
-	(wire
-		(pts
 			(xy 64.135 95.885) (xy 38.735 95.885)
 		)
 		(stroke
@@ -2760,36 +2580,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 179.705) (xy 156.845 187.325)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b877eb6b-e4ef-4a71-87d9-2dffff7d481e")
-	)
-	(wire
-		(pts
-			(xy 155.575 93.345) (xy 180.975 93.345)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbfbc42f-7639-4439-9cd6-811e24b4c4b6")
-	)
-	(wire
-		(pts
-			(xy 154.94 85.09) (xy 161.29 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc77ac5d-df43-441e-b5b0-aca43623e13e")
-	)
-	(wire
-		(pts
 			(xy 144.145 154.94) (xy 137.795 154.94)
 		)
 		(stroke
@@ -2807,16 +2597,6 @@
 			(type default)
 		)
 		(uuid "c4a2c37b-6148-4b3f-a882-0cc6ff9381fb")
-	)
-	(wire
-		(pts
-			(xy 156.21 161.925) (xy 180.975 161.925)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c61edfff-f8b1-4fa5-bf15-2ebc7268d4a0")
 	)
 	(wire
 		(pts
@@ -2850,26 +2630,6 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 111.76) (xy 180.34 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceb3e48c-c494-4ac7-ba26-54bdb4d461fc")
-	)
-	(wire
-		(pts
-			(xy 154.94 76.835) (xy 154.94 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cebf81ff-a876-4b1f-9af8-725bf2f95d21")
-	)
-	(wire
-		(pts
 			(xy 197.485 274.955) (xy 219.075 274.955)
 		)
 		(stroke
@@ -2877,16 +2637,6 @@
 			(type default)
 		)
 		(uuid "d2664acf-269f-457b-bf1a-49d21e9d7883")
-	)
-	(wire
-		(pts
-			(xy 155.575 101.6) (xy 161.925 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3f7a480-779e-4960-bedf-8a98e770686d")
 	)
 	(wire
 		(pts
@@ -3000,26 +2750,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.955 124.46) (xy 161.925 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecdc1e56-c098-4475-b3bc-eec6b9f7cd2b")
-	)
-	(wire
-		(pts
-			(xy 155.575 119.38) (xy 161.925 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef95ee11-7424-40b1-baab-7e1b8ff9bc5e")
-	)
-	(wire
-		(pts
 			(xy 197.485 265.43) (xy 219.075 265.43)
 		)
 		(stroke
@@ -3050,16 +2780,6 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 111.76) (xy 155.575 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa02b7a0-71e6-40a5-81cb-c3c9dcf9a3b3")
-	)
-	(wire
-		(pts
 			(xy 112.395 78.105) (xy 86.995 78.105)
 		)
 		(stroke
@@ -3067,16 +2787,6 @@
 			(type default)
 		)
 		(uuid "fac53832-1a7a-47a4-9194-0036a52e3a1c")
-	)
-	(wire
-		(pts
-			(xy 144.145 90.17) (xy 144.145 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff872a3b-0408-4086-acfb-bb5b51f0bdbb")
 	)
 	(label "SUPPLY_2"
 		(at 219.075 262.89 180)
@@ -3818,110 +3528,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TLV9064")
-		(at 168.91 87.63 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a2c9d20-e45d-43ae-aef2-4dc8e923cd58")
-		(property "Reference" "U1"
-			(at 168.91 78.994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV9064"
-			(at 168.91 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 167.64 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf"
-			(at 170.18 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87e143d8-309c-4830-831e-d6735844882e")
-		)
-		(pin "2"
-			(uuid "e11a124e-1e5b-434d-8918-62591a217871")
-		)
-		(pin "3"
-			(uuid "02360055-2ef9-4652-bcd4-b8b8904dfcae")
-		)
-		(pin "5"
-			(uuid "075f3d02-4a73-4010-8d4c-e94929ea0330")
-		)
-		(pin "6"
-			(uuid "a029d997-1db1-4962-b2db-f8daca8bb41b")
-		)
-		(pin "7"
-			(uuid "5764c879-3f63-43a9-912f-e5b2cffff6b0")
-		)
-		(pin "10"
-			(uuid "c1b6277e-7397-456a-a9fb-cb5e2247578b")
-		)
-		(pin "8"
-			(uuid "da775d0c-665a-4e3a-a9de-8b4bdaca907a")
-		)
-		(pin "9"
-			(uuid "05851770-73f1-49e7-b8d8-aae6e3256005")
-		)
-		(pin "12"
-			(uuid "2e078322-0c75-4b98-ba9a-f3fb64e8af7e")
-		)
-		(pin "13"
-			(uuid "1a91a9d7-006f-4de2-8148-44896d5e61c2")
-		)
-		(pin "14"
-			(uuid "f3dc7f35-7856-499d-891b-9cdabd1aa62e")
-		)
-		(pin "11"
-			(uuid "0fa455e7-7be1-486b-ab13-f356f3eccdb4")
-		)
-		(pin "4"
-			(uuid "d5eaaedd-7ddf-4883-837a-76dc708066f5")
-		)
-		(instances
-			(project "VMU"
-				(path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 32.385 67.945 0)
 		(mirror y)
@@ -4330,110 +3936,6 @@
 				(path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
 					(reference "J1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TLV9064")
-		(at 169.545 104.14 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "547ce166-1bf9-4953-9a37-7b413b747500")
-		(property "Reference" "U1"
-			(at 169.545 95.377 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV9064"
-			(at 169.545 97.917 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 168.275 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf"
-			(at 170.815 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 169.545 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87e143d8-309c-4830-831e-d6735844882f")
-		)
-		(pin "2"
-			(uuid "e11a124e-1e5b-434d-8918-62591a217872")
-		)
-		(pin "3"
-			(uuid "02360055-2ef9-4652-bcd4-b8b8904dfcaf")
-		)
-		(pin "5"
-			(uuid "b5eff9e4-e414-443d-bb8e-21928e8b4f90")
-		)
-		(pin "6"
-			(uuid "a615fd74-4169-4e49-899f-06e38ef359b9")
-		)
-		(pin "7"
-			(uuid "dd1b54a3-6580-403f-88b5-f092a2a5fedb")
-		)
-		(pin "10"
-			(uuid "c1b6277e-7397-456a-a9fb-cb5e2247578c")
-		)
-		(pin "8"
-			(uuid "da775d0c-665a-4e3a-a9de-8b4bdaca907b")
-		)
-		(pin "9"
-			(uuid "05851770-73f1-49e7-b8d8-aae6e3256006")
-		)
-		(pin "12"
-			(uuid "2e078322-0c75-4b98-ba9a-f3fb64e8af7f")
-		)
-		(pin "13"
-			(uuid "1a91a9d7-006f-4de2-8148-44896d5e61c3")
-		)
-		(pin "14"
-			(uuid "f3dc7f35-7856-499d-891b-9cdabd1aa62f")
-		)
-		(pin "11"
-			(uuid "0fa455e7-7be1-486b-ab13-f356f3eccdb5")
-		)
-		(pin "4"
-			(uuid "d5eaaedd-7ddf-4883-837a-76dc708066f6")
-		)
-		(instances
-			(project "VMU"
-				(path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
-					(reference "U1")
-					(unit 2)
 				)
 			)
 		)
@@ -5169,6 +4671,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
@@ -5322,6 +4825,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "TLV9064"
@@ -5330,6 +4834,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
@@ -5607,110 +5112,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TLV9064")
-		(at 169.545 155.575 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4ecbd55-1173-4b54-b62b-f0515a5d5b98")
-		(property "Reference" "U2"
-			(at 169.545 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV9064"
-			(at 169.545 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 168.275 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf"
-			(at 170.815 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 169.545 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87e143d8-309c-4830-831e-d67358448831")
-		)
-		(pin "2"
-			(uuid "e11a124e-1e5b-434d-8918-62591a217874")
-		)
-		(pin "3"
-			(uuid "02360055-2ef9-4652-bcd4-b8b8904dfcb1")
-		)
-		(pin "5"
-			(uuid "4e4a5c61-cceb-465e-8a3e-1a30267517e5")
-		)
-		(pin "6"
-			(uuid "dd2d68e7-14d8-4845-b300-cc80a205dff2")
-		)
-		(pin "7"
-			(uuid "107ce46f-f5fa-4b1f-b20a-1a20cb6bcea7")
-		)
-		(pin "10"
-			(uuid "c1b6277e-7397-456a-a9fb-cb5e2247578e")
-		)
-		(pin "8"
-			(uuid "da775d0c-665a-4e3a-a9de-8b4bdaca907d")
-		)
-		(pin "9"
-			(uuid "05851770-73f1-49e7-b8d8-aae6e3256008")
-		)
-		(pin "12"
-			(uuid "2e078322-0c75-4b98-ba9a-f3fb64e8af81")
-		)
-		(pin "13"
-			(uuid "1a91a9d7-006f-4de2-8148-44896d5e61c5")
-		)
-		(pin "14"
-			(uuid "f3dc7f35-7856-499d-891b-9cdabd1aa631")
-		)
-		(pin "11"
-			(uuid "0fa455e7-7be1-486b-ab13-f356f3eccdb7")
-		)
-		(pin "4"
-			(uuid "d5eaaedd-7ddf-4883-837a-76dc708066f8")
-		)
-		(instances
-			(project "VMU"
-				(path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 32.385 90.805 0)
 		(mirror y)
@@ -5771,110 +5172,6 @@
 				(path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
 					(reference "#PWR09")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TLV9064")
-		(at 169.545 121.92 0)
-		(mirror x)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d87c3206-b4ae-4b73-abc8-b7682c21d93e")
-		(property "Reference" "U1"
-			(at 169.545 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV9064"
-			(at 169.545 115.824 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 168.275 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf"
-			(at 170.815 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 169.545 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87e143d8-309c-4830-831e-d67358448832")
-		)
-		(pin "2"
-			(uuid "e11a124e-1e5b-434d-8918-62591a217875")
-		)
-		(pin "3"
-			(uuid "02360055-2ef9-4652-bcd4-b8b8904dfcb2")
-		)
-		(pin "5"
-			(uuid "affde3d7-1201-46cc-bd2c-10ff0ffd7f6b")
-		)
-		(pin "6"
-			(uuid "9e40e85e-d6b6-4ef1-9af0-faf389e70374")
-		)
-		(pin "7"
-			(uuid "43b61c1e-be98-4b33-9cad-9c4a0f1a8746")
-		)
-		(pin "10"
-			(uuid "c1b6277e-7397-456a-a9fb-cb5e2247578f")
-		)
-		(pin "8"
-			(uuid "da775d0c-665a-4e3a-a9de-8b4bdaca907e")
-		)
-		(pin "9"
-			(uuid "05851770-73f1-49e7-b8d8-aae6e3256009")
-		)
-		(pin "12"
-			(uuid "2e078322-0c75-4b98-ba9a-f3fb64e8af82")
-		)
-		(pin "13"
-			(uuid "1a91a9d7-006f-4de2-8148-44896d5e61c6")
-		)
-		(pin "14"
-			(uuid "f3dc7f35-7856-499d-891b-9cdabd1aa632")
-		)
-		(pin "11"
-			(uuid "0fa455e7-7be1-486b-ab13-f356f3eccdb8")
-		)
-		(pin "4"
-			(uuid "d5eaaedd-7ddf-4883-837a-76dc708066f9")
-		)
-		(instances
-			(project "VMU"
-				(path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
-					(reference "U1")
-					(unit 3)
 				)
 			)
 		)
@@ -5943,214 +5240,6 @@
 				(path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
 					(reference "J5")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TLV9064")
-		(at 169.545 138.43 0)
-		(mirror x)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbdd5ba2-2292-4ad5-a76a-bdcb78c3bf04")
-		(property "Reference" "U1"
-			(at 169.545 129.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV9064"
-			(at 169.545 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 168.275 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf"
-			(at 170.815 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 169.545 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87e143d8-309c-4830-831e-d67358448833")
-		)
-		(pin "2"
-			(uuid "e11a124e-1e5b-434d-8918-62591a217876")
-		)
-		(pin "3"
-			(uuid "02360055-2ef9-4652-bcd4-b8b8904dfcb3")
-		)
-		(pin "5"
-			(uuid "2c026461-a530-4860-ab06-5d3650b4ff38")
-		)
-		(pin "6"
-			(uuid "eba52d16-9fe5-4032-89fa-948a381033b1")
-		)
-		(pin "7"
-			(uuid "86d19201-d737-437b-957b-9241b4929244")
-		)
-		(pin "10"
-			(uuid "c1b6277e-7397-456a-a9fb-cb5e22475790")
-		)
-		(pin "8"
-			(uuid "da775d0c-665a-4e3a-a9de-8b4bdaca907f")
-		)
-		(pin "9"
-			(uuid "05851770-73f1-49e7-b8d8-aae6e325600a")
-		)
-		(pin "12"
-			(uuid "2e078322-0c75-4b98-ba9a-f3fb64e8af83")
-		)
-		(pin "13"
-			(uuid "1a91a9d7-006f-4de2-8148-44896d5e61c7")
-		)
-		(pin "14"
-			(uuid "f3dc7f35-7856-499d-891b-9cdabd1aa633")
-		)
-		(pin "11"
-			(uuid "0fa455e7-7be1-486b-ab13-f356f3eccdb9")
-		)
-		(pin "4"
-			(uuid "d5eaaedd-7ddf-4883-837a-76dc708066fa")
-		)
-		(instances
-			(project "VMU"
-				(path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
-					(reference "U1")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TLV9064")
-		(at 169.545 172.085 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e02800bb-9911-40d7-bf99-d43d6d00bd08")
-		(property "Reference" "U2"
-			(at 169.545 163.703 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV9064"
-			(at 169.545 166.243 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 168.275 174.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf"
-			(at 170.815 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 169.545 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87e143d8-309c-4830-831e-d67358448834")
-		)
-		(pin "2"
-			(uuid "e11a124e-1e5b-434d-8918-62591a217877")
-		)
-		(pin "3"
-			(uuid "02360055-2ef9-4652-bcd4-b8b8904dfcb4")
-		)
-		(pin "5"
-			(uuid "8b5e211d-c77f-4971-9eb5-0c5a15e33a06")
-		)
-		(pin "6"
-			(uuid "91ae63b7-56da-44a3-bd8a-7cfa73059fa6")
-		)
-		(pin "7"
-			(uuid "c88f09d6-c565-4291-b60f-6a0d4d798f03")
-		)
-		(pin "10"
-			(uuid "c1b6277e-7397-456a-a9fb-cb5e22475791")
-		)
-		(pin "8"
-			(uuid "da775d0c-665a-4e3a-a9de-8b4bdaca9080")
-		)
-		(pin "9"
-			(uuid "05851770-73f1-49e7-b8d8-aae6e325600b")
-		)
-		(pin "12"
-			(uuid "2e078322-0c75-4b98-ba9a-f3fb64e8af84")
-		)
-		(pin "13"
-			(uuid "1a91a9d7-006f-4de2-8148-44896d5e61c8")
-		)
-		(pin "14"
-			(uuid "f3dc7f35-7856-499d-891b-9cdabd1aa634")
-		)
-		(pin "11"
-			(uuid "0fa455e7-7be1-486b-ab13-f356f3eccdba")
-		)
-		(pin "4"
-			(uuid "d5eaaedd-7ddf-4883-837a-76dc708066fb")
-		)
-		(instances
-			(project "VMU"
-				(path "/a0b206d8-cab6-473c-9bbb-e8da011ef93c"
-					(reference "U2")
-					(unit 2)
 				)
 			)
 		)
